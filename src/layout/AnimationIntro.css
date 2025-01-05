@@ -1,0 +1,52 @@
+
+.textAnimation-1{
+    animation:  slideUp 2s ;
+}
+@keyframes slideUp {    
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+
+.textAnimation-2{
+    animation:  slideUp 4s ;
+}
+@keyframes slideUp {    
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+.textAnimation-3{
+    animation:  slideUp 6s ;
+}
+@keyframes slideUp {    
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+.textAnimation-4{
+    animation:  slideUp 8s ;
+}
+@keyframes slideUp {    
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+.textAnimation-5{
+    animation:  slideUp 10s ;
+}
+@keyframes slideUp {    
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+.textAnimation-6{
+    animation:  slideUp 12s ;
+}
+@keyframes slideUp {    
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+.textAnimation-7{
+    animation:  slideUp 14s ;
+}
+@keyframes slideUp {    
+    from{opacity: 0; }
+    to{opacity: 1; }
+}
+
