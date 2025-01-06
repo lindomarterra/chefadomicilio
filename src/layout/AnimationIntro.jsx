@@ -4,18 +4,8 @@ import './AnimationIntro.css'
 const AnimationIntro = () => {
   return (
     <div >
-      <img
-        style={{ width: '350px', opacity: '.9' }}
-        src={Logo}
-        alt="cozinhaAfetiva"
-      />
-      <p
-        style={{
-          fontFamily: 'var(--font-7)',
-          fontSize: '4em',
-          color: 'var(--color8)',
-        }}
-      >
+      <img src={Logo} alt="cozinhaAfetiva" />
+      <p className='suaChefAnimation' >
         <span className="textAnimation-1">Sua</span>
         <span> </span>
         <span className="textAnimation-2">Chef</span>
@@ -26,7 +16,6 @@ const AnimationIntro = () => {
         <span className="textAnimation-5">mi</span>
         <span className="textAnimation-6">cì</span>
         <span className="textAnimation-7">lio</span>
- 
       </p>
     </div>
   )

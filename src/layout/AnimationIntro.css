@@ -1,3 +1,36 @@
+img {
+    width: 250px;
+    opacity: .9;
+}
+
+@media screen and (min-width: 992px) {
+  img {
+    width: 450px;
+  }
+}
+
+.suaChefAnimation{
+    color: var(--color8);
+    font-family: var(--font-7);
+    font-size: 2.5em;
+}
+
+@media screen and ( min-width: 992px ) {
+    .suaChefAnimation {
+        font-size: 4em;
+    }
+}
+
+
+img {
+    animation: fadeLogo 2s ;
+}
+
+@keyframes fadeLogo {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
 
 .textAnimation-1{
     animation:  slideUp 2s ;
@@ -49,4 +82,5 @@
     from{opacity: 0; }
     to{opacity: 1; }
 }
+
 

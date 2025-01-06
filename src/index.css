@@ -26,15 +26,15 @@
     --font-6: "Corinthia", serif;
     --font-7: "Fuggles", serif;
 
+    background-color: #ebebeb;   
+
 }
 
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 
 html{ scroll-behavior: smooth;}
 
-body{
-    background-color: #fff;    
-}
+
 
 
 
