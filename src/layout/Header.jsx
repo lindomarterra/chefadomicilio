@@ -5,7 +5,12 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa"
 const Header = () => {
   return (
     <nav
-      style={{fontFamily: 'var(--font-2)', position:'fixed', zIndex:'100', backgroundColor:'lightgrey', color:'#222' }}
+      style={{
+        fontFamily: 'var(--font-2)',
+        //position: 'fixed',
+        zIndex: '100',
+        backgroundColor: 'lightgrey',
+      }}
       className="navbar navbar-expand-sm p-0 w-100 opacity-75 shadow-lg "
     >
       <div className="container-fluid ">
@@ -33,7 +38,8 @@ const Header = () => {
           <ul className="navbar-nav flex-grow-1">
             <li className="nav-item">
               <Link
-                className="nav-link"
+                style={{ color: '#705c1c' }}
+                className="nav-link fw-bolder"
                 aria-current="page"
                 to="/menu"
                 target="_self"
@@ -42,25 +48,45 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about" target="_self">
+              <Link
+                style={{ color: '#705c1c' }}
+                className="nav-link fw-bolder"
+                to="/about"
+                target="_self"
+              >
                 Sobre
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact" target="_self">
+              <Link
+                style={{ color: '#705c1c' }}
+                className="nav-link fw-bolder"
+                to="/contact"
+                target="_self"
+              >
                 Contact
               </Link>
             </li>
           </ul>
-          <div className="align-self-end d-none d-sm-flex " >
+          <div className="align-self-end d-none d-sm-flex ">
             <ul className="list-unstyled pt-2 pe-4">
               <li className="nav-item">
-                <Link className="nav-link text-decoration-none" to="#" target="_blank">
+                <Link
+                  style={{ color: '#705c1c' }}
+                  className="nav-link text-decoration-none fw-bolder"
+                  to="#"
+                  target="_blank"
+                >
                   <FaInstagram />
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-decoration-none" to="/#" target="_blank">
+                <Link
+                  style={{ color: '#705c1c' }}
+                  className="nav-link text-decoration-none fw-bolder"
+                  to="/#"
+                  target="_blank"
+                >
                   <FaLinkedin />
                 </Link>
               </li>

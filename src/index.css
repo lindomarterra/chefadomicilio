@@ -4,9 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 :root{
     --color1:#4F698C;
     --color2:#467302; 
@@ -22,9 +23,10 @@
     --font-2: 'PT Sans Narrow', sans-serif; ;
     --font-3: 'Bebas Neue', cursive;
     --font-4: 'Anton', sans-serif;
-    --font-5: 'Rubik Moonrocks', cursive;
+    --font-5: "Special Elite", sans-serif;
     --font-6: "Corinthia", serif;
     --font-7: "Fuggles", serif;
+    --font-8:: "Amatic SC", serif;
 
     background-color: #ebebeb;   
 

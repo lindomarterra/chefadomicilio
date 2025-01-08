@@ -1,0 +1,26 @@
+
+.cozinhaAfetiva_container h1{
+    font-size: 4.5em ;
+    color: #82bf84;
+    font-family: var(--font-4);
+    text-shadow: 2px 2px 2px #222;
+}
+
+.cozinhaAfetiva_container .definicao{
+    font-size: 1.3em;
+    color: #222222b6;
+}
+
+.cozinhaAfetiva_container li{
+    font-weight: 900;
+    font-size: 1em;    
+}
+
+.cozinhaAfetiva_container span{
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+
+

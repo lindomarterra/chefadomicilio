@@ -10,7 +10,8 @@ img {
 }
 
 .suaChefAnimation{
-    color: var(--color8);
+    color: #705c1c;
+    font-weight: bold;
     font-family: var(--font-7);
     font-size: 2.5em;
 }

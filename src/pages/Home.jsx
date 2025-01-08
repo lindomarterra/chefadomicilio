@@ -1,13 +1,13 @@
 import Header from "../layout/Header"
 import CarouselBegining from '../layout/CarouselBegining'
-import IntroductionAbout from "../layout/IntroductionAbout"
+import Parallax from "../layout/Parallax"
 
 const Home = () => {
   return (
     <div>
       <Header/>
       <CarouselBegining/>
-      <IntroductionAbout/>
+      <Parallax/>
     </div>
   )
     
