@@ -1,3 +1,6 @@
+.cozinhaAfetiva_container{
+    background-color: #ffffffe5;
+}
 
 .cozinhaAfetiva_container h1{
     font-size: 4.5em ;
@@ -16,10 +19,14 @@
     font-size: 1em;    
 }
 
-.cozinhaAfetiva_container span{
-    font-weight: normal;
-    font-style: italic;
-    padding-left: 5px;
+.cozinhaAfetiva_container a{
+    color: #222;
+    text-decoration: none;
+}
+
+.cozinhaAfetiva_container a:hover{
+    color: #222222c7;
+    text-decoration: underline;
 }
 
 
