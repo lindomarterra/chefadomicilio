@@ -2,16 +2,17 @@ import { Link } from "react-router-dom"
 import Logo from '../images/logo.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
 
+
 const Header = () => {
   return (
     <nav
       style={{
         fontFamily: 'var(--font-2)',
-        //position: 'fixed',
+        position: 'absolute',
         zIndex: '100',
-        backgroundColor: 'lightgrey',
+        backgroundColor: '#ffffff99',
       }}
-      className="navbar navbar-expand-sm p-0 w-100 opacity-75 shadow-lg "
+      className="navbar navbar-expand-sm w-100 shadow-lg "
     >
       <div className="container-fluid ">
         <Link className="navbar-brand" to="/" target="_self">
@@ -38,7 +39,6 @@ const Header = () => {
           <ul className="navbar-nav flex-grow-1">
             <li className="nav-item">
               <Link
-                style={{ color: '#705c1c' }}
                 className="nav-link fw-bolder"
                 aria-current="page"
                 to="/menu"
@@ -48,22 +48,12 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                style={{ color: '#705c1c' }}
-                className="nav-link fw-bolder"
-                to="/about"
-                target="_self"
-              >
+              <Link className="nav-link fw-bolder" to="/about" target="_self">
                 Sobre
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                style={{ color: '#705c1c' }}
-                className="nav-link fw-bolder"
-                to="/contact"
-                target="_self"
-              >
+              <Link className="nav-link fw-bolder" to="/contact" target="_self">
                 Contact
               </Link>
             </li>
@@ -72,7 +62,6 @@ const Header = () => {
             <ul className="list-unstyled pt-2 pe-4">
               <li className="nav-item">
                 <Link
-                  style={{ color: '#705c1c' }}
                   className="nav-link text-decoration-none fw-bolder"
                   to="#"
                   target="_blank"
@@ -82,7 +71,6 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  style={{ color: '#705c1c' }}
                   className="nav-link text-decoration-none fw-bolder"
                   to="/#"
                   target="_blank"

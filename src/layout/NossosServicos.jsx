@@ -10,28 +10,21 @@ const NossosServicos = () => {
       <h2 className="text-center"> Nossos Serviços </h2>
       <h4> Como funciona:</h4>
       <p>
-        Oferecemos um serviço exclusivo de culinária vegana personalizada para
-        vc e para sua familia, preparando toda a{' '}
-        <strong>comida da semana</strong> onde vc pode deixá-las{' '}
-        <strong>congeladas</strong> e assim consumí-la conforme sua necessidade
-        durante a semana.
+        Chef à domicílio é um serviço exclusivo de culinária vegana
+        personalizada, que tem como intuíto facilitar o acesso de comida
+        saudável e saborosa para as pessoas que buscam qualidade de vida.
       </p>
+      <p> Elaboramos e executamos um cardápio semanal para você e sua familia em sua própia casa de acordo com suas necesidades e preferências facilitando assim o seu dia-a-dia.  </p>
       <p>
-        Nossa proposta foca em uma alimentação cem por cento{' '}
-        <strong>vegetariana estrita</strong> buscando trabalhar com ingredientes
-        frescos e produtos o menos industrializado possível.
-      </p>
-      <p>
-        A ideia é facilitar o dia-a-dia das pessoas que não tem tempo ou não
-        gostam de cozinhar e mesmo assim se preocupam em ter uma alimentação{' '}
-        <strong>nutritiva</strong> e saborosa no conforto do sua casa.
+        Nossa proposta foca em uma alimentação cem por cento
+        <strong> vegetariana estrita </strong> buscando trabalhar com
+        ingredientes frescos e produtos menos industrializados possível.
       </p>
 
       <h4>Outros Serviços:</h4>
       <p>
-        Também oferecemos serviços de alimentação vegetariana estrita para
-        catering e demais eventos similares com preparo entrega e apresentação
-        do mesmo em um ambiente a escolha do cliente.
+        Também oferecemos serviços de alimentação vegetariana estrita para eventos como 
+        catering, coffee-break e confraternização em geral. Elaboramos, preparamos, entregamos todo o menu em um local a escolha do cliente.
       </p>
       <p>
         Nosso serviço de Catering é em parceria com a
@@ -42,10 +35,10 @@ const NossosServicos = () => {
           >
             Soul Rebel Rio
           </Link>
-          <ImLink/>
+          <ImLink />
         </strong>
-        que fica no bairro Santa Teresa RJ, onde também oferecemos serviços de{' '}
-        <strong>Brunch</strong> semanal com agendamento prévio via whatsapp.
+        que fica no bairro Santa Teresa RJ, onde também oferecemos serviços de
+        <strong> Brunch </strong> semanal com agendamento prévio via whatsapp.
       </p>
     </section>
   )

@@ -1,30 +1,30 @@
-.cozinhaAfetiva_container{
-    background-color: #ffffffe5;
+.chefaDomicilio_container{
+    background-color: #ffffffa8;
 }
 
-.cozinhaAfetiva_container h1{
+.chefaDomicilio_container h1{
     font-size: 4.5em ;
-    color: #82bf84;
+    color: var(--color1);
     font-family: var(--font-4);
     text-shadow: 2px 2px 2px #222;
 }
 
-.cozinhaAfetiva_container .definicao{
+.chefaDomicilio_container .definicao{
     font-size: 1.3em;
     color: #222222b6;
 }
 
-.cozinhaAfetiva_container li{
+.chefaDomicilio_container li{
     font-weight: 900;
     font-size: 1em;    
 }
 
-.cozinhaAfetiva_container a{
+.chefaDomicilio_container a{
     color: #222;
     text-decoration: none;
 }
 
-.cozinhaAfetiva_container a:hover{
+.chefaDomicilio_container a:hover{
     color: #222222c7;
     text-decoration: underline;
 }

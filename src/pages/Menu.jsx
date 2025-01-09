@@ -1,7 +1,10 @@
+import Header from "../layout/Header"
 
 const Menu = () => {
   return (
-    <div>Menu</div>
+    <div>
+      <Header/>
+    </div>
   )
 }
 

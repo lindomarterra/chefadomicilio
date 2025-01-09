@@ -1,6 +1,22 @@
+.introComponent{
+    background-image: url(../images/backgroundIntroComponentMobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 750px) {
+    .introComponent{
+        background-image: url(../images/backgroundIntroComponentDesktop.png);
+    }
+}
+
 img {
     width: 250px;
-    opacity: .9;
 }
 
 @media screen and (min-width: 992px) {
@@ -10,10 +26,10 @@ img {
 }
 
 .suaChefAnimation{
-    color: #705c1c;
-    font-weight: bold;
+    color: #ffffffc4;
     font-family: var(--font-7);
-    font-size: 2.5em;
+    font-size: 3em;
+    font-weight: bold;    
 }
 
 @media screen and ( min-width: 992px ) {
@@ -21,7 +37,6 @@ img {
         font-size: 4em;
     }
 }
-
 
 img {
     animation: fadeLogo 2s ;
@@ -31,7 +46,6 @@ img {
     from{opacity: 0;}
     to{opacity: 1;}
 }
-
 
 .textAnimation-1{
     animation:  slideUp 2s ;
