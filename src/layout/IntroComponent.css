@@ -12,90 +12,22 @@
 @media screen and (min-width: 750px) {
     .introComponent{
         background-image: url(../images/backgroundIntroComponentDesktop.png);
-    }
+    }    
 }
 
 img {
-    width: 250px;
+    width: 300px;
+    animation: fadeLogo 4s ;
 }
 
-@media screen and (min-width: 992px) {
-  img {
-    width: 450px;
-  }
-}
-
-.suaChefAnimation{
-    color: #ffffffc4;
-    font-family: var(--font-7);
-    font-size: 3em;
-    font-weight: bold;    
-}
-
-@media screen and ( min-width: 992px ) {
-    .suaChefAnimation {
-        font-size: 4em;
+@media screen and (min-width: 750px){
+    img{
+        width: 500px;
     }
-}
-
-img {
-    animation: fadeLogo 2s ;
 }
 
 @keyframes fadeLogo {
     from{opacity: 0;}
     to{opacity: 1;}
 }
-
-.textAnimation-1{
-    animation:  slideUp 2s ;
-}
-@keyframes slideUp {    
-    from{opacity: 0; }
-    to{opacity: 1; }
-}
-
-.textAnimation-2{
-    animation:  slideUp 4s ;
-}
-@keyframes slideUp {    
-    from{opacity: 0; }
-    to{opacity: 1; }
-}
-.textAnimation-3{
-    animation:  slideUp 6s ;
-}
-@keyframes slideUp {    
-    from{opacity: 0; }
-    to{opacity: 1; }
-}
-.textAnimation-4{
-    animation:  slideUp 8s ;
-}
-@keyframes slideUp {    
-    from{opacity: 0; }
-    to{opacity: 1; }
-}
-.textAnimation-5{
-    animation:  slideUp 10s ;
-}
-@keyframes slideUp {    
-    from{opacity: 0; }
-    to{opacity: 1; }
-}
-.textAnimation-6{
-    animation:  slideUp 12s ;
-}
-@keyframes slideUp {    
-    from{opacity: 0; }
-    to{opacity: 1; }
-}
-.textAnimation-7{
-    animation:  slideUp 14s ;
-}
-@keyframes slideUp {    
-    from{opacity: 0; }
-    to{opacity: 1; }
-}
-
 
