@@ -1,9 +1,8 @@
-import Header from "../layout/Header"
 
 const Menu = () => {
   return (
-    <div>
-      <Header/>
+    <div style={{minHeight:'25vh'}}>
+      
     </div>
   )
 }

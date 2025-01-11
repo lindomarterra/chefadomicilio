@@ -5,7 +5,7 @@ import { ImLink } from 'react-icons/im'
 
 const NossosServicos = () => {
   return (
-    <section className="nossoServicos_container mt-4 rounded-2 p-4 p-lg-5 ">
+    <section className="nossoServicos_container mt-4 p-4 p-lg-5 ">
       <div className="animation_container">
         <h2 className="p-4">Nossos Serviços </h2>
         <h4 className="py-2 px-1"> Como funciona:</h4>
@@ -20,9 +20,23 @@ const NossosServicos = () => {
           <strong>facilitando</strong> assim o seu dia-a-dia.
         </p>
         <p>
-          Nossa proposta foca em uma alimentação cem por cento
-          <strong> vegetariana estrita </strong> buscando trabalhar com
-          ingredientes frescos e produtos menos industrializados possível.
+          Nossa proposta foca em uma alimentação
+          <strong> Plant Based </strong>, alimentação que não utiliza nenhum
+          produto de origem animal (é 100% vegetal) e prioriza os alimentos mais
+          naturais e íntegros evitando o consumo de alimentos refinados e muito
+          processados.
+        </p>
+        <p>
+          Conheça mais sobre
+          <strong>
+            <Link
+              to="/about"
+              target="_self"
+            >
+              Rose Klamt
+            </Link>
+            <ImLink />
+          </strong>
         </p>
         <h4 className="py-2 px-1">Outros Serviços:</h4>
         <p>
@@ -46,14 +60,12 @@ const NossosServicos = () => {
           <strong> Brunch </strong> semanal com agendamento prévio via{' '}
           <strong>
             <Link
-              to="https://soulrebelrio.com/veganrioexperience"
+              to="https://web.whatsapp.com/send?phone=5551 9694-4233"
               target="_blank"
             >
               Whatsapp.
             </Link>
-            <ImLink />
           </strong>
-          .
         </p>
       </div>
     </section>

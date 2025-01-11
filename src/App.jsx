@@ -4,10 +4,14 @@ import Home from './pages/Home'
 import Menu from './pages/Menu'
 import Contact from './pages/Contact'
 import About from './pages/About'
+import Footer from './layout/Footer'
+import Header from './layout/Header'
 
 const App = () => {
   return (
     <Router>
+
+      <Header/>
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -16,6 +20,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
       </Routes>
 
+      <Footer/>
+      
     </Router>
   )
 }
