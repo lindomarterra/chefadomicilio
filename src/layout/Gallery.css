@@ -1,0 +1,15 @@
+button{
+    border: none;
+    background-color: var(--color1);
+    color: #ffffffda ;
+    font-family: var(--font-4);  
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #222; 
+    transition: .5s; 
+}
+
+button:hover{
+    background-color: #fff;
+    color: var(--color1) ;
+}

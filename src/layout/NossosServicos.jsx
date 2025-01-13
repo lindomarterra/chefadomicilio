@@ -8,16 +8,11 @@ const NossosServicos = () => {
     <section className="nossoServicos_container mt-4 p-4 p-lg-5 ">
       <div className="animation_container">
         <h2 className="p-4">Nossos Serviços </h2>
-        <h4 className="py-2 px-1"> Como funciona:</h4>
+        <h4 className="py-2 px-1"> O que é:</h4>
         <p>
           Chef à domicílio é um serviço exclusivo de culinária vegana
           personalizada, que tem como intuíto facilitar o acesso de comida
           saudável e saborosa para as pessoas que buscam qualidade de vida.
-        </p>
-        <p>
-          Elaboramos e executamos um cardápio semanal para você e sua familia em
-          sua própia casa de acordo com suas necesidades e preferências
-          <strong>facilitando</strong> assim o seu dia-a-dia.
         </p>
         <p>
           Nossa proposta foca em uma alimentação
@@ -26,18 +21,13 @@ const NossosServicos = () => {
           naturais e íntegros evitando o consumo de alimentos refinados e muito
           processados.
         </p>
+        <h4 className="py-2 px-1"> Como funciona:</h4>
         <p>
-          Conheça mais sobre
-          <strong>
-            <Link
-              to="/about"
-              target="_self"
-            >
-              Rose Klamt
-            </Link>
-            <ImLink />
-          </strong>
+          Elaboramos e executamos um cardápio semanal para você e sua familia em
+          sua própia casa de acordo com suas necesidades e preferências
+          <strong>facilitando</strong> assim o seu dia-a-dia.
         </p>
+
         <h4 className="py-2 px-1">Outros Serviços:</h4>
         <p>
           Também oferecemos serviços de alimentação vegetariana estrita para
@@ -65,6 +55,16 @@ const NossosServicos = () => {
             >
               Whatsapp.
             </Link>
+          </strong>
+        </p>
+
+        <p>
+          Conheça mais sobre
+          <strong>
+            <Link to="/about" target="_self">
+              Rose Klamt
+            </Link>
+            <ImLink />
           </strong>
         </p>
       </div>
