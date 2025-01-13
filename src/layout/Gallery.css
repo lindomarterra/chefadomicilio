@@ -1,15 +1,40 @@
-button{
+section{
+    background-color: #e8eeee83;
+    padding-bottom: 50px;
+}
+
+section a{
+    overflow: hidden;
+}
+
+section a img{ 
+    transition: all 200ms linear; 
+}
+
+section a:hover img{
+    transform: scale(1.08);
+}
+
+
+
+
+.btn_hover{
     border: none;
     background-color: var(--color1);
     color: #ffffffda ;
-    font-family: var(--font-4);  
-    border-radius: 5px;
-    padding: 5px;
+    width: 68px;
+    font-family: var(--font-2);  
     box-shadow: 2px 2px 2px #222; 
     transition: .5s; 
 }
 
-button:hover{
+.btn_hover:hover{
     background-color: #fff;
     color: var(--color1) ;
+}
+
+@media screen and (min-width: 576px) {
+    .btn_hover{
+        width: 100px;
+    }
 }
