@@ -28,6 +28,11 @@ section a:hover img{
     transition: .5s; 
 }
 
+.btn_hover:checked{
+    background-color: #fff;
+    color: var(--color1) ;
+}
+
 .btn_hover:hover{
     background-color: #fff;
     color: var(--color1) ;

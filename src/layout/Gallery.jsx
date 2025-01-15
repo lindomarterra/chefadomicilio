@@ -1,9 +1,22 @@
 import './Gallery.css'
+
 import Refeicao1 from '../images/refeicao/refeicao1.png'
 import Refeicao2 from '../images/refeicao/refeicao2.png'
 import Refeicao3 from '../images/refeicao/refeicao3.png'
 import Refeicao4 from '../images/refeicao/refeicao4.png'
 import Refeicao5 from '../images/refeicao/refeicao5.png'
+
+import Brunch1 from '../images/brunch/brunch1.png'
+import Brunch2 from '../images/brunch/brunch2.png'
+import Brunch3 from '../images/brunch/brunch3.png'
+import Brunch4 from '../images/brunch/brunch4.png'
+
+import Petisco1 from '../images/petiscos/petisco1.png'
+import Petisco2 from '../images/petiscos/petisco2.png'
+import Petisco3 from '../images/petiscos/petisco3.png'
+import Petisco7 from '../images/petiscos/petisco7.png'
+import Petisco6 from '../images/petiscos/petisco6.png'
+
 import { Link } from 'react-router-dom'
 
 const Gallery = () => {
@@ -45,170 +58,151 @@ const Gallery = () => {
           <div className="carousel-item active">
             <div className="container">
               <div className="row g-0">
-               <div className="col-md-6 col-lg-4">
-                  <div className="d-sm-flex d-md-block">
-                    <Link to="/menu" target="_self">
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao2}
-                        alt="refeicao2"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
+                <div className="col-md-6 col-lg-4  ">
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '250px' }}
+                      src={Refeicao2}
+                      alt="refeicao2"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
 
-                    <Link to="/menu" target="_self">
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao1}
-                        alt="refeicao1"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
-                  </div>
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '250px' }}
+                      src={Refeicao1}
+                      alt="refeicao1"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
                 </div>
-                <div className="col-md-6 col-lg-4 ms-sm-2 ms-md-0">
-                  <Link to="/menu" target='_self' >
+                <div className="col-md-6 col-lg-4  ">
+                  <Link to="/menu" target="_self">
                     <img
                       style={{ height: '500px' }}
                       src={Refeicao3}
                       alt="refeicao3"
-                      className="d-block w-100 p-2 rounded-4"
+                      className="d-block w-100 rounded-4 p-2"
                     />
                   </Link>
                 </div>
-                <div className="col-md-6 col-lg-4">
-                  <div className="d-sm-flex d-lg-block">
-                    <Link to="/menu" target='_self' >
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao5}
-                        alt="refeicao5"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
-                    <Link to="/menu" target='_self' >
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao4}
-                        alt="refeicao4"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
-                  </div>
+                <div className="col-md-6 col-lg-4  ">
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '250px' }}
+                      src={Refeicao5}
+                      alt="refeicao5"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '250px' }}
+                      src={Refeicao4}
+                      alt="refeicao4"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="carousel-item">
-            <div style={{ height: '500px' }}>
-              <div className="row g-0">
-                <div className="col-md-6 col-lg-4">
-                  <div className="d-sm-flex d-md-block">
-                    <Link to="/menu" target="_self">
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao2}
-                        alt="refeicao2"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
 
-                    <Link to="/menu" target="_self">
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao1}
-                        alt="refeicao1"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-6 col-lg-4 ms-sm-2 ms-md-0">
-                  <Link to="/menu" target='_self' >
+          <div className="carousel-item">
+            <div className="container">
+              <div className="row g-0">
+                <div className="col-md-6 col-lg-4  ">
+                  <Link to="/menu" target="_self">
                     <img
                       style={{ height: '500px' }}
-                      src={Refeicao3}
-                      alt="refeicao3"
-                      className="d-block w-100 p-2 rounded-4"
+                      src={Brunch3}
+                      alt="brunch3"
+                      className="d-block w-100 rounded-4 p-2"
                     />
                   </Link>
                 </div>
-                <div className="col-md-6 col-lg-4">
-                  <div className="d-sm-flex d-lg-block">
-                    <Link to="/menu" target='_self' >
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao5}
-                        alt="refeicao5"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
-                    <Link to="/menu" target='_self' >
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao4}
-                        alt="refeicao4"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
-                  </div>
+                <div className="col-md-6 col-lg-4  ">
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '250px' }}
+                      src={Brunch1}
+                      alt="brunch1"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
+
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '250px' }}
+                      src={Brunch2}
+                      alt="brunch2"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
+                </div>
+                <div className="col-md-6 col-lg-4  ">
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '500px' }}
+                      src={Brunch4}
+                      alt="brunch4"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="carousel-item">
-            <div style={{ height: '500px' }}>
-              <div className="row g-0">
-                <div className="col-md-6 col-lg-4">
-                  <div className="d-sm-flex d-md-block">
-                    <Link to="/menu" target="_self">
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao2}
-                        alt="refeicao2"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
 
-                    <Link to="/menu" target="_self">
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao1}
-                        alt="refeicao1"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-6 col-lg-4 ms-sm-2 ms-md-0">
-                  <Link to="/menu" target='_self' >
+          <div className="carousel-item">
+            <div className="container">
+              <div className="row g-0">
+                <div className="col-md-6 col-lg-4  ">
+                  <Link to="/menu" target="_self">
                     <img
                       style={{ height: '500px' }}
-                      src={Refeicao3}
-                      alt="refeicao3"
-                      className="d-block w-100 p-2 rounded-4"
+                      src={Petisco1}
+                      alt="petisco1"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
+                </div>
+                <div className="col-md-6 col-lg-4  ">
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '250px' }}
+                      src={Petisco2}
+                      alt="petisco2"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '250px' }}
+                      src={Petisco3}
+                      alt="petisco3"
+                      className="d-block w-100 rounded-4 p-2"
                     />
                   </Link>
                 </div>
                 <div className="col-md-6 col-lg-4">
-                  <div className="d-sm-flex d-lg-block">
-                    <Link to="/menu" target='_self' >
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao5}
-                        alt="refeicao5"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
-                    <Link to="/menu" target='_self' >
-                      <img
-                        style={{ height: '250px' }}
-                        src={Refeicao4}
-                        alt="refeicao4"
-                        className="d-block w-100 p-2 rounded-4"
-                      />
-                    </Link>
-                  </div>
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '300px' }}
+                      src={Petisco6}
+                      alt="petisco6"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
+                  <Link to="/menu" target="_self">
+                    <img
+                      style={{ height: '200px' }}
+                      src={Petisco7}
+                      alt="petisco7"
+                      className="d-block w-100 rounded-4 p-2"
+                    />
+                  </Link>
                 </div>
               </div>
             </div>

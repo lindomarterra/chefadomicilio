@@ -20,8 +20,8 @@ const ChefaDomicilio = () => {
           acordo com suas necessidades, preferências ou restrições.
         </p>
 
-        <div className="row p-1 p-sm-2 p-md-3 p-lg-5 g-3  ">
-          <div className="col-sm-6 col-xl-4 ">
+        <div className="row p-1 p-sm-2 p-md-3 p-lg-5 g-3">
+          <div className="col-sm-6 col-lg-4 ">
             <div
               className="rounded-2 p-2 "
               style={{
@@ -52,7 +52,7 @@ const ChefaDomicilio = () => {
               </ul>
             </div>
           </div>
-          <div className="col-sm-6 col-xl-4 ">
+          <div className="col-sm-6 col-lg-4 ">
             <div
               className="rounded-2 p-2 "
               style={{
@@ -77,7 +77,7 @@ const ChefaDomicilio = () => {
               </ul>
             </div>
           </div>
-          <div className="col-sm-6 col-xl-4 ">
+          <div className="col-sm-6 col-lg-4 ">
             <div
               className="rounded-2 p-2 "
               style={{

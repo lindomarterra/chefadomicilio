@@ -6,7 +6,7 @@ import { ImLink } from 'react-icons/im'
 const NossosServicos = () => {
   return (
     <section className="nossoServicos_container mt-4 p-4 p-lg-5 ">
-      <div className="animation_container">
+      <div className="container-md p-md-5 animation_container">
         <h2 className="p-4">Nossos Serviços </h2>
         <h4 className="py-2 px-1"> O que é:</h4>
         <p>
