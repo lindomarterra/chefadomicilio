@@ -16,9 +16,9 @@
 }
 
 .nossoServicos_container h2{
-    font-family: var(--font-3);
+    font-family: var(--font-4);
     text-align: center;
-    font-size: 2.5em;    
+    font-size: 3.5em;    
     text-shadow: 2px 2px 2px #222222a8;
     color: #6987aa;
     opacity: .9;
@@ -36,6 +36,12 @@
     font-family: var(--font-2);
     font-size: 1.1em;
     padding: 5px;
+}
+
+@media screen and (min-width: 950px) {
+    .nossoServicos_container p{
+        font-size: 1.4em;
+    }
 }
 
 .nossoServicos_container strong{

@@ -10,8 +10,15 @@
 }
 
 .chefaDomicilio_container .definicao{
-    font-size: 1.3em;
+    font-size: 1.4em;
+    font-family: var(--font-2); 
     color: #222222b6;
+}
+
+@media screen and (min-width: 950px ) {
+  .chefaDomicilio_container .definicao{
+    font-size: 2.5em;    
+}
 }
 
 .chefaDomicilio_container li{

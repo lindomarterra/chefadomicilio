@@ -1,22 +1,17 @@
-
-import IntroComponent from "../layout/IntroComponent"
-import Parallax from "../layout/Parallax"
+import IntroComponent from '../layout/IntroComponent'
 import NossosServicos from '../layout/NossosServicos'
 import Gallery from '../layout/Gallery'
-import Aside from '../layout/Aside'
-
+import ChefaDomicilio from '../layout/ChefaDomicilio'
 
 const Home = () => {
   return (
     <div style={{ minHeight: '75vh' }}>
       <IntroComponent />
-      <Parallax />
+      <ChefaDomicilio />
       <NossosServicos />
       <Gallery />
-      <Aside />
     </div>
   )
-    
 }
 
 export default Home

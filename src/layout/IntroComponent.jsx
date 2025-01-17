@@ -1,6 +1,6 @@
 import './IntroComponent.css'
 
-import Logo from '../images/roseklamt_logo.png'
+import Logo from '../images/icon/roseklamt_logo.png'
 
 const IntroComponent = () => {
   return (

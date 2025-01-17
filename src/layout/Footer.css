@@ -1,0 +1,10 @@
+footer{
+  background-image: url(../images/brunch/brunch5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section{
+  background-color: rgba(0, 0, 0, 0.534);
+}
