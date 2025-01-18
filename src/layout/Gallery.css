@@ -1,17 +1,13 @@
-section{
-    background-color: #e8eeee83;
-    padding-bottom: 50px;
-}
 
-section a{
+.container a{
     overflow: hidden;
 }
 
-section a img{ 
+.container a img{ 
     transition: all 200ms linear; 
 }
 
-section a:hover img{
+.container a:hover img{
     transform: scale(1.08);
 }
 

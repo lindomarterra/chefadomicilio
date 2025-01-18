@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
-import Logo from '../images/icon/logo.png'
+import Logo from '../images/icon/Rose_Klamt__1_-removebg-preview.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
+import './Header.css'
 
 
 const Header = () => {
@@ -9,15 +10,15 @@ const Header = () => {
       style={{
         fontFamily: 'var(--font-2)',
         position: 'absolute',
-        zIndex: '100',
-        backgroundColor: '#ffffff99',
+        zIndex: '100',        
+        height:'60px',        
       }}
       className="navbar navbar-expand-sm w-100 shadow-lg "
     >
       <div className="container-fluid ">
         <Link className="navbar-brand" to="/" target="_self">
           <img
-            style={{ width: '70px' }}
+            style={{ width: '50px' }}
             src={Logo}
             alt="roseklamtcozinhaafetiva"
           />
@@ -39,7 +40,7 @@ const Header = () => {
           <ul className="navbar-nav flex-grow-1">
             <li className="nav-item">
               <Link
-                className="nav-link fw-bolder"
+                className="nav-link fw-bolder "
                 aria-current="page"
                 to="/menu"
                 target="_self"
@@ -62,8 +63,8 @@ const Header = () => {
             <ul className="list-unstyled pt-2 pe-4">
               <li className="nav-item">
                 <Link
-                  className="nav-link text-decoration-none fw-bolder"
-                  to="#"
+                  className="nav-link text-decoration-none fw-bolder text-black-50"
+                  to="https://www.instagram.com/rosy.klamt/?locale=en_CA"
                   target="_blank"
                 >
                   <FaInstagram />
@@ -71,8 +72,8 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link text-decoration-none fw-bolder"
-                  to="/#"
+                  className="nav-link text-decoration-none fw-bolder text-black-50"
+                  to="https://www.linkedin.com/in/roseli-klamt-388497235/"
                   target="_blank"
                 >
                   <FaLinkedin />

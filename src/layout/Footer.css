@@ -1,10 +1,18 @@
 footer{
-  background-image: url(../images/brunch/brunch5.png);
+  background-image: url(../images/petiscos/petisco2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section{
-  background-color: rgba(0, 0, 0, 0.534);
+  background-color: rgba(0, 0, 0, 0.692);
+}
+
+section a {
+  transition: .1s linear;
+}
+
+section a:hover{
+  font-size: 1.04em;
 }

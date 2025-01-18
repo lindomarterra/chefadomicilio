@@ -1,12 +1,20 @@
 import './IntroComponent.css'
-
-import Logo from '../images/icon/roseklamt_logo.png'
+import Rose from '../images/rose/rose.png'
+import Klamt from '../images/rose/klamt.png'
 
 const IntroComponent = () => {
   return (
     <div className="introComponent ">
-       
-       <img src={Logo} alt="roseklamt_logo" />        
+      <div className="pelicula">
+          <img src={Rose } alt="rose" className='d-block rose' />
+          <img src={Klamt} alt="klamt" className='d-block klamt' />
+          <p>
+            <span className='span1' >Sua</span>
+            <span className='span2' >Chef</span>
+            <span className='span3' >à</span>
+            <span className='span4' >Domicílio</span>
+          </p>
+      </div>
     </div>
   )
 }

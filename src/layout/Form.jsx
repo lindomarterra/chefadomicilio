@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <form
       className="text-center px-5 py-4 "
-      style={{ backgroundColor: '#222222ab' }}
+      style={{ backgroundColor: '#22222aaa' }}
       action="https://formsubmit.co/terra.lindomar@gmail.com"
       method="POST"
     >

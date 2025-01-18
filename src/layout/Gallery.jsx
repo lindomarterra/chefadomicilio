@@ -21,7 +21,8 @@ import { Link } from 'react-router-dom'
 
 const Gallery = () => {
   return (
-    <section className="container mb-5">
+    <div className="container mb-5" >
+
       <div className="text-center p-5">
         <button
           type="button"
@@ -53,9 +54,9 @@ const Gallery = () => {
         </button>
       </div>
 
-      <div id="carouselExample" className="carousel carousel-fade slide">
+      <div id="carouselExample" className="carousel carousel-fade slide" data-bs-ride="carousel" >
         <div className="carousel-inner">
-          <div className="carousel-item active">
+          <div className="carousel-item active" data-bs-interval="15000" >
             <div className="container">
               <div className="row g-0">
                 <div className="col-md-6 col-lg-4  ">
@@ -109,7 +110,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="15000" >
             <div className="container">
               <div className="row g-0">
                 <div className="col-md-6 col-lg-4  ">
@@ -155,7 +156,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="carousel-item">
+          <div className="carousel-item" data-bs-interval="15000" >
             <div className="container">
               <div className="row g-0">
                 <div className="col-md-6 col-lg-4  ">
@@ -209,7 +210,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 
