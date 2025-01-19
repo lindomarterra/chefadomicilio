@@ -4,7 +4,7 @@
 
 .chefaDomicilio_container h1{
     font-size: 4.5em ;
-    color: var(--color1);
+    color: #6cad63;
     font-family: var(--font-4);
     text-shadow: 2px 2px 2px #222;
 }

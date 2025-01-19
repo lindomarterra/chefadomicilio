@@ -54,6 +54,8 @@ const Gallery = () => {
         </button>
       </div>
 
+
+
       <div id="carouselExample" className="carousel carousel-fade slide" data-bs-ride="carousel" >
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="15000" >
@@ -210,6 +212,13 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+
+      <div className='text-center p-5'>
+        <Link to="/menu" target='_self' className='btn_menu'  >
+         Cardápio
+        </Link>
+      </div>
+
     </div>
   )
 }

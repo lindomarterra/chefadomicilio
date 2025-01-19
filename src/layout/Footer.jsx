@@ -40,7 +40,7 @@ const Footer = () => {
                   <Link
                     to="https://web.whatsapp.com/send?phone=5551 9694-4233"
                     target="_blank"
-                    className="text-decoration-none ps-2 fw-bold text-white "
+                    className="text-decoration-none ps-2 fw-bold text-white"
                   >
                     5551 9694-4233
                   </Link>

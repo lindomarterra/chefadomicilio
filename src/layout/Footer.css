@@ -9,7 +9,7 @@ section{
   background-color: rgba(0, 0, 0, 0.692);
 }
 
-section a {
+section a {  
   transition: .1s linear;
 }
 

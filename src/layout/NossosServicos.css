@@ -20,7 +20,7 @@
     text-align: center;
     font-size: 3.5em;    
     text-shadow: 2px 2px 2px #222222a8;
-    color: #6987aa;
+    color: #6cad63;
     opacity: .9;
 }
 
@@ -29,7 +29,7 @@
     font-style: italic;
     font-size: 1.2em;
     opacity: .8;
-    background-image: linear-gradient(to right,  #6987aa69,  #739c9552, transparent  );
+    background-image: linear-gradient(to right,  #6cad6336,  #6cad631e, transparent  );
 }
 
 .nossoServicos_container p{
@@ -54,7 +54,7 @@
 
 .nossoServicos_container a{
     text-decoration: none;
-    color: #6987aae5;
+    color: #6cad63;
     padding: 0 8px;
 }
 

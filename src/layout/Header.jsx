@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
-import Logo from '../images/icon/Rose_Klamt__1_-removebg-preview.png'
+import Logo from '../images/icon/logo.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
-import './Header.css'
+
 
 
 const Header = () => {
@@ -10,8 +10,8 @@ const Header = () => {
       style={{
         fontFamily: 'var(--font-2)',
         position: 'absolute',
-        zIndex: '100',        
-        height:'60px',        
+        zIndex: '100',
+        backgroundColor: '#ffffffa1',
       }}
       className="navbar navbar-expand-sm w-100 shadow-lg "
     >
@@ -20,7 +20,8 @@ const Header = () => {
           <img
             style={{ width: '50px' }}
             src={Logo}
-            alt="roseklamtcozinhaafetiva"
+            alt="roseklamtchefadomicilio"
+            className="pb-2"
           />
         </Link>
 
