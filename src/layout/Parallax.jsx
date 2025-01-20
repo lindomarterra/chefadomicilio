@@ -1,12 +1,15 @@
+import Cardapio from './Cardapio'
 import './Parallax.css'
-
-import ChefaDomicilio from './ChefaDomicilio'
+import SujestaoCardapio from './SujestaoCardapio'
 
 
 const Parallax = () => {
   return (
-    <div className="parallax p-md-3 p-lg-4 p-xl-5">
-      <ChefaDomicilio />
+    <div className="parallax">
+      <div className='pelicula_parallax' >
+        <SujestaoCardapio/>
+        <Cardapio />
+      </div>
     </div>
   )
 }

@@ -8,10 +8,11 @@ import Footer from './layout/Footer'
 import Header from './layout/Header'
 
 const App = () => {
-  return (
-    <Router>
 
-      <Header/>
+
+  return (
+    <Router >
+      <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,8 +21,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
       </Routes>
 
-      <Footer/>
-      
+      <Footer />
     </Router>
   )
 }

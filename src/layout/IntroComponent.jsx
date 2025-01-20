@@ -1,6 +1,6 @@
 import './IntroComponent.css'
-import Rose from '../images/rose/rose.png'
-import Klamt from '../images/rose/klamt.png'
+import Rose from '../images/icon/rose.png'
+import Klamt from '../images/icon/klamt.png'
 
 const IntroComponent = () => {
   return (

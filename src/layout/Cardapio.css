@@ -1,0 +1,25 @@
+.itemCardapio  h5 {
+    animation: titleItem 5s;
+}
+
+@keyframes titleItem {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.itemCardapio  p {
+    animation: titleParag 5s;
+}
+
+@keyframes titleParag {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

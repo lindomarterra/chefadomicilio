@@ -3,17 +3,16 @@ import Logo from '../images/icon/logo.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
 
 
-
 const Header = () => {
   return (
-    <nav
+    <header
       style={{
         fontFamily: 'var(--font-2)',
         position: 'absolute',
         zIndex: '100',
-        backgroundColor: '#ffffffa1',
+        //backgroundColor: '#ffffff67'
       }}
-      className="navbar navbar-expand-sm w-100 shadow-lg "
+      className="navbar navbar-expand-sm w-100"
     >
       <div className="container-fluid ">
         <Link className="navbar-brand" to="/" target="_self">
@@ -38,10 +37,11 @@ const Header = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav flex-grow-1">
+          <ul className="navbar-nav flex-grow-1" style={{fontFamily:'var(--font-4)'}} >
             <li className="nav-item">
               <Link
-                className="nav-link fw-bolder "
+                style={{ color: 'green' }}
+                className="nav-link"
                 aria-current="page"
                 to="/menu"
                 target="_self"
@@ -50,12 +50,22 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link fw-bolder" to="/about" target="_self">
+              <Link
+                style={{ color: 'green' }}
+                className="nav-link"
+                to="/about"
+                target="_self"
+              >
                 Sobre
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link fw-bolder" to="/contact" target="_self">
+              <Link
+                style={{ color: 'green' }}
+                className="nav-link"
+                to="/contact"
+                target="_self"
+              >
                 Contact
               </Link>
             </li>
@@ -64,7 +74,8 @@ const Header = () => {
             <ul className="list-unstyled pt-2 pe-4">
               <li className="nav-item">
                 <Link
-                  className="nav-link text-decoration-none fw-bolder text-black-50"
+                  style={{ color: 'var(--color5)' }}
+                  className="nav-link text-decoration-none fw-bolder"
                   to="https://www.instagram.com/rosy.klamt/?locale=en_CA"
                   target="_blank"
                 >
@@ -73,7 +84,8 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link text-decoration-none fw-bolder text-black-50"
+                  style={{ color: 'var(--color5)' }}
+                  className="nav-link text-decoration-none fw-bolder"
                   to="https://www.linkedin.com/in/roseli-klamt-388497235/"
                   target="_blank"
                 >
@@ -84,7 +96,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </nav>
+    </header>
   )
 }
 

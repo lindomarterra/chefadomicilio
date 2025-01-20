@@ -45,21 +45,21 @@ const Footer = () => {
                     5551 9694-4233
                   </Link>
                 </p>
-                <div className="fs-1">
-                  <Link
-                    to="https://www.instagram.com/rosy.klamt/?locale=en_CA"
-                    target="_blank"
-                    className="text-white"
-                  >
-                    <CiInstagram />
-                  </Link>
-                  <Link
-                    to="https://www.linkedin.com/in/roseli-klamt-388497235/"
-                    target="_blank"
-                    className="text-white"
-                  >
-                    <CiLinkedin />
-                  </Link>
+                <div style={{fontSize:'3em'}} >
+                    <Link
+                      to="https://www.instagram.com/rosy.klamt/?locale=en_CA"
+                      target="_blank"
+                      className="text-white"
+                    >
+                      <CiInstagram />
+                    </Link>
+                    <Link
+                      to="https://www.linkedin.com/in/roseli-klamt-388497235/"
+                      target="_blank"
+                      className="text-white"
+                    >
+                      <CiLinkedin />
+                    </Link>
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ const Footer = () => {
                     5521 98295 0900
                   </Link>
                 </p>
-                <div className="fs-1">
+                <div style={{fontSize:'3em'}} >
                   <Link
                     to="https://www.instagram.com/soulrebel.rio/reel/C_N6REIuiYo"
                     target="_blank"

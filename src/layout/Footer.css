@@ -10,9 +10,9 @@ section{
 }
 
 section a {  
-  transition: .1s linear;
+  transition: .3s linear;
 }
 
 section a:hover{
-  font-size: 1.04em;
+  opacity: .5;
 }

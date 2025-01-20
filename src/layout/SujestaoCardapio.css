@@ -1,0 +1,18 @@
+.sujestao_cardapio{
+    color:rgba(255, 0, 0, 0.877);
+    font-size: 3em;
+    font-family: var(--font-6);
+    font-weight: bolder;
+    animation: sujestaoCardapio 2s ;
+    text-shadow: 2px 2px 2px #222222c2;
+
+}
+
+@keyframes sujestaoCardapio {
+    from {
+        margin-top: -150px;
+    }
+    to{
+        margin-top: 0;
+    }
+}
