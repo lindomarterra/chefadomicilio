@@ -3,9 +3,9 @@ import './SujestaoCardapio.css'
 const SujestaoCardapio = () => {
   return (
     <div      
-      className="d-flex justify-content-center align-items-center flex-column sujestao_cardapio "
+      className="sujestao_cardapio text-center "
     >
-      <p className="">Sujestões de Cardápio para você</p>
+      <p>Sujestões de Cardápio para você</p>
       
     </div>
   )

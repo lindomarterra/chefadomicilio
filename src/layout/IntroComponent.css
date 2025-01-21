@@ -1,12 +1,11 @@
 .introComponent{
-    background-image: url(../images/refeicao/background.png);
+    background-image: url(../images/refeicao/marmitasBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;    
 }
 
-.pelicula{
-    background-color: #2222227a;
+.pelicula{    
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,26 +16,11 @@
 .rose{
     width: 300px;
     position: absolute;
-    top: 5%;
+    top: 15%;
     animation: rose 1s;
 }
 
 @keyframes rose {
-    from{
-        margin-right: -2000px;
-    }
-    to{
-        margin-right: 0;
-    }
-}
-.klamt{
-    width: 300px;
-    position: absolute;
-    top: 35%;
-    animation: klamt 1s;
-}
-
-@keyframes klamt {
     from{
         margin-left: -2000px;
     }
@@ -44,13 +28,30 @@
         margin-left: 0;
     }
 }
+.klamt{
+    width: 330px;
+    position: absolute;
+    top: 45%;
+    animation: klamt 1s;
+    margin-left: 40px;
+}
+
+@keyframes klamt {
+    from{
+        margin-right: -2000px;
+    }
+    to{
+        margin-right: 0;
+    }
+}
 
 .pelicula p{
     position: absolute;
     top: 85%;
-    font-family: var(--font-6);
-    color: #fff;
+    font-family: var(--font-6);    
+    color:rgba(255, 0, 0, 0.877);
     font-size: 2.2em;
+    font-weight: bolder;
     text-shadow: 2px 2px 2px #222;
 }
 

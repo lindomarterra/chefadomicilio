@@ -37,7 +37,10 @@ const Header = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav flex-grow-1" style={{fontFamily:'var(--font-4)'}} >
+          <ul
+            className="navbar-nav flex-grow-1"
+            style={{ fontFamily: 'var(--font-4)' }}
+          >
             <li className="nav-item">
               <Link
                 style={{ color: 'green' }}
