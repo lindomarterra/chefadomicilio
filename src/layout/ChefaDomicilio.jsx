@@ -17,13 +17,12 @@ const ChefaDomicilio = () => {
           acordo com suas necessidades, preferências ou restrições.
         </p>
 
-
         <div className="row p-1 p-sm-2 p-md-3 p-lg-5 g-3">
           <div className="col-sm-6 col-lg-4 ">
             <div
               className="rounded-2 p-2 "
               style={{
-                backgroundColor: '#adb84f',
+                backgroundColor: '#739668',
                 minHeight: '425px',
               }}
             >
@@ -53,7 +52,7 @@ const ChefaDomicilio = () => {
             <div
               className="rounded-2 p-2 "
               style={{
-                backgroundColor: '#e09d87',
+                backgroundColor: '#e3e858',
                 minHeight: '425px',
               }}
             >
@@ -77,7 +76,7 @@ const ChefaDomicilio = () => {
             <div
               className="rounded-2 p-2 "
               style={{
-                backgroundColor: '#a7d1cc',
+                backgroundColor: '#e6826a',
                 minHeight: '425px',
               }}
             >

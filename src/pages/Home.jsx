@@ -14,8 +14,8 @@ const Home = () => {
       <ChefaDomicilio />
       <NossosServicos />
       <Gallery />
-      <span className='position-fixed bottom-0 start-0' ><BackToTheTop/></span>
-      <span className='position-fixed end-0 bottom-0' ><WhatsappButton/></span>
+      <BackToTheTop/>
+      <WhatsappButton/>
     </div>
   )
 }

@@ -1,0 +1,9 @@
+header{
+    background-color: #ffffffd3 ;
+}
+
+@media screen and (min-width: 576px ) {
+    header{
+        background-color: transparent;
+    }
+}

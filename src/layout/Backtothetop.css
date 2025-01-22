@@ -1,24 +1,2 @@
-.backtothetop{
-    border: none;
-    background-color: #222 ;
-    color: #fff;
-    box-shadow: 2px 2px 3px #222;
-    margin-left: -110px;
-    z-index: 100;
-    transition: all .5s linear;
-    font-weight: bold;
-    border-top-right-radius: 8px;
-}
-
-.arrowUp{
-    transition: all .10s ease-in-out;
-}
-
-.backtothetop:hover{
-    margin-left: 0;
-}
-
-.backtothetop:hover .arrowUp{
-    visibility: hidden;
-}
-
+.arrow{ margin-bottom: -10px;  transition: all .3s linear; }
+.arrow:hover{ margin-bottom: 0; }

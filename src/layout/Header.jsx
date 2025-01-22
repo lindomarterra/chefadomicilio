@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import Logo from '../images/icon/logo.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
+import './Header.css'
 
 
 const Header = () => {
@@ -9,8 +10,7 @@ const Header = () => {
       style={{
         fontFamily: 'var(--font-2)',
         position: 'absolute',
-        zIndex: '100',
-        //backgroundColor: '#ffffff67'
+        zIndex: '100',        
       }}
       className="navbar navbar-expand-sm w-100"
     >

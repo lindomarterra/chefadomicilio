@@ -55,7 +55,6 @@ const Gallery = () => {
       </div>
 
 
-
       <div id="carouselExample" className="carousel carousel-fade slide" data-bs-ride="carousel" >
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="15000" >
