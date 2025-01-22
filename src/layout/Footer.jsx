@@ -5,10 +5,11 @@ import SoulRebelRioLogo from '../images/icon/soulRebelRioLogo.png'
 import { CiInstagram, CiLinkedin } from 'react-icons/ci'
 import CopyRight from './CopyRight'
 
+import ImgLogo from '../images/icon/imgLogo.png'
+
 const Footer = () => {
-  
-  const myStyle= {
-    color: "#fff"
+  const myStyle = {
+    color: '#fff',
   }
 
   return (
@@ -31,6 +32,12 @@ const Footer = () => {
                   Solicite orçamentos pelo contatos abaixo:
                 </p>
 
+                <img
+                  src={ImgLogo}
+                  alt="imaLogo"
+                  className="w-25 mb-3"                  
+                />
+
                 <p>
                   Email:
                   <span className="fst-italic ps-2">rosy.klamt@gmail.com</span>
@@ -45,21 +52,21 @@ const Footer = () => {
                     5551 9694-4233
                   </Link>
                 </p>
-                <div style={{fontSize:'3em'}} >
-                    <Link
-                      to="https://www.instagram.com/rosy.klamt/?locale=en_CA"
-                      target="_blank"
-                      className="text-white"
-                    >
-                      <CiInstagram />
-                    </Link>
-                    <Link
-                      to="https://www.linkedin.com/in/roseli-klamt-388497235/"
-                      target="_blank"
-                      className="text-white"
-                    >
-                      <CiLinkedin />
-                    </Link>
+                <div style={{ fontSize: '3em' }}>
+                  <Link
+                    to="https://www.instagram.com/rosy.klamt/?locale=en_CA"
+                    target="_blank"
+                    className="text-white"
+                  >
+                    <CiInstagram />
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/in/roseli-klamt-388497235/"
+                    target="_blank"
+                    className="text-white"
+                  >
+                    <CiLinkedin />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -103,7 +110,7 @@ const Footer = () => {
                     5521 98295 0900
                   </Link>
                 </p>
-                <div style={{fontSize:'3em'}} >
+                <div style={{ fontSize: '3em' }}>
                   <Link
                     to="https://www.instagram.com/soulrebel.rio/reel/C_N6REIuiYo"
                     target="_blank"

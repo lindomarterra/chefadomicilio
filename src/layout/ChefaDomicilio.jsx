@@ -22,7 +22,7 @@ const ChefaDomicilio = () => {
             <div
               className="rounded-2 p-2 "
               style={{
-                backgroundColor: '#739668',
+                backgroundColor: '#addb97',
                 minHeight: '425px',
               }}
             >
@@ -52,7 +52,7 @@ const ChefaDomicilio = () => {
             <div
               className="rounded-2 p-2 "
               style={{
-                backgroundColor: '#e3e858',
+                backgroundColor: '#eddf8e',
                 minHeight: '425px',
               }}
             >
@@ -76,7 +76,7 @@ const ChefaDomicilio = () => {
             <div
               className="rounded-2 p-2 "
               style={{
-                backgroundColor: '#e6826a',
+                backgroundColor: '#c6c9a7',
                 minHeight: '425px',
               }}
             >

@@ -6,16 +6,14 @@ import BackToTheTop from '../layout/BackToTheTop'
 import WhatsappButton from '../layout/WhatsappButton'
 
 const Home = () => {
-
-
   return (
     <div style={{ minHeight: '75vh' }} className="position-relative">
       <IntroComponent />
       <ChefaDomicilio />
       <NossosServicos />
       <Gallery />
-      <BackToTheTop/>
-      <WhatsappButton/>
+      <BackToTheTop />
+      <WhatsappButton />
     </div>
   )
 }

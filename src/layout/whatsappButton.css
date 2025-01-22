@@ -10,6 +10,7 @@
     align-items: center;
     border-radius: 50%;    
     transition: all .3s linear;
+    z-index: 1000;
 }
 
 .btn_whats:hover , .btn_whats svg:hover{

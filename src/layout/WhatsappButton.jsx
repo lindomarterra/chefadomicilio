@@ -1,6 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa6"
 import { Link } from "react-router-dom"
-import './whatsapp.css'
+import './whatsappButton.css'
 
 const WhatsappButton = () => {
   return (
