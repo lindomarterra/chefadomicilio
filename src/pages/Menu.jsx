@@ -4,7 +4,7 @@ import Footer from '../layout/Footer'
 
 const Menu = () => {
   return (
-    <div style={{minHeight: '75vh'}} >
+    <div >
       <Header/>
       <Parallax/>
       <Footer/>
