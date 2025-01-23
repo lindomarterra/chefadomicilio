@@ -1,5 +1,5 @@
 .introComponent{
-    background-image: url(../images/refeicao/marmita3.png);
+    background-image: url(../images/refeicao/marmitasBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;    
@@ -14,7 +14,7 @@
     position: relative;
 }
 .rose{
-    width: 300px;
+    width: 290px;
     position: absolute;
     top: 15%;
     animation: rose 1s;
@@ -29,7 +29,7 @@
     }
 }
 .klamt{
-    width: 330px;
+    width: 300px;
     position: absolute;
     top: 45%;
     animation: klamt 1s;
