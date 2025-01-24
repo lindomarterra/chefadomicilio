@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import './Footer.css'
 import Form from './Form'
-import SoulRebelRioLogo from '../images/icon/soulRebelRioLogo.png'
+import SoulRebelRioLogo from '../../images/icon/soulRebelRioLogo.png'
 import { CiInstagram, CiLinkedin } from 'react-icons/ci'
 import CopyRight from './CopyRight'
 
-import ImgLogo from '../images/icon/imgLogo.png'
+import ImgLogo from '../../images/icon/imgLogo.png'
 
 const Footer = () => {
   const myStyle = {
@@ -13,7 +13,7 @@ const Footer = () => {
   }
 
   return (
-    <footer style={myStyle}>
+    <footer style={myStyle}  id='contact' >
       <section>
         <div className="container py-5 ">
           <div className="row">

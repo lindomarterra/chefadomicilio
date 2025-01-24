@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom"
-import Logo from '../images/icon/logo.png'
+import { Link } from 'react-scroll'
+import './Header.css'
+import Logo from '../../images/icon/logo.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
 
 
@@ -13,11 +14,18 @@ const Header = () => {
           zIndex: '100',
           backgroundColor: '#ffffffd3 ',
         }}
-        className="navbar navbar-expand-sm w-100 shadow-lg position-fixed"
+        className="navbar navbar-expand-sm w-100 shadow-lg"
       >
         <div className="container">
-
-          <Link className="navbar-brand" to="/" target="_self">
+          <Link
+            className="navbar-brand"
+            to="introducao"
+            target="_self"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             <img
               style={{ width: '50px' }}
               src={Logo}
@@ -42,10 +50,14 @@ const Header = () => {
               <li className="nav-item">
                 <Link
                   style={{ color: 'green' }}
-                  className="nav-link"
+                  className="nav-link pointer-event"
                   aria-current="page"
-                  to="/menu"
+                  to="menu"
                   target="_self"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
                 >
                   Menu
                 </Link>
@@ -54,8 +66,12 @@ const Header = () => {
                 <Link
                   style={{ color: 'green' }}
                   className="nav-link"
-                  to="/about"
+                  to="sobre"
                   target="_self"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
                 >
                   Sobre
                 </Link>
@@ -64,8 +80,12 @@ const Header = () => {
                 <Link
                   style={{ color: 'green' }}
                   className="nav-link"
-                  to="/contact"
+                  to="contact"
                   target="_self"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
                 >
                   Contact
                 </Link>
@@ -96,7 +116,6 @@ const Header = () => {
               </ul>
             </div>
           </div>
-
         </div>
       </nav>
     </header>

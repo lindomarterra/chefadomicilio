@@ -1,27 +1,27 @@
-import './Gallery.css'
+import './Menu.css'
 
-import Refeicao1 from '../images/refeicao/refeicao1.png'
-import Refeicao2 from '../images/refeicao/refeicao2.png'
-import Refeicao3 from '../images/refeicao/refeicao3.png'
-import Refeicao4 from '../images/refeicao/refeicao4.png'
-import Refeicao5 from '../images/refeicao/refeicao5.png'
+import Refeicao1 from '../../images/refeicao/refeicao1.png'
+import Refeicao2 from '../../images/refeicao/refeicao2.png'
+import Refeicao3 from '../../images/refeicao/refeicao3.png'
+import Refeicao4 from '../../images/refeicao/refeicao4.png'
+import Refeicao5 from '../../images/refeicao/refeicao5.png'
 
-import Brunch1 from '../images/brunch/brunch1.png'
-import Brunch2 from '../images/brunch/brunch2.png'
-import Brunch3 from '../images/brunch/brunch3.png'
-import Brunch4 from '../images/brunch/brunch4.png'
+import Brunch1 from '../../images/brunch/brunch1.png'
+import Brunch2 from '../../images/brunch/brunch2.png'
+import Brunch3 from '../../images/brunch/brunch3.png'
+import Brunch4 from '../../images/brunch/brunch4.png'
 
-import Petisco1 from '../images/petiscos/petisco1.png'
-import Petisco2 from '../images/petiscos/petisco2.png'
-import Petisco3 from '../images/petiscos/petisco3.png'
-import Petisco7 from '../images/petiscos/petisco7.png'
-import Petisco6 from '../images/petiscos/petisco6.png'
+import Petisco1 from '../../images/petiscos/petisco1.png'
+import Petisco2 from '../../images/petiscos/petisco2.png'
+import Petisco3 from '../../images/petiscos/petisco3.png'
+import Petisco7 from '../../images/petiscos/petisco7.png'
+import Petisco6 from '../../images/petiscos/petisco6.png'
 
 import { Link } from 'react-router-dom'
 
 const Gallery = () => {
   return (
-    <div className="container mb-5" >
+    <div className="container mb-5"   id='menu' >
 
       <div className="text-center p-5">
         <button

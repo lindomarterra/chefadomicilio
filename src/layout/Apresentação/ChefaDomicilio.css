@@ -3,21 +3,21 @@
 }
 
 .chefaDomicilio_container h1{
-    font-size: 4.5em ;
+    font-size: 3.5em ;
     color: #6cad63;
     font-family: var(--font-4);
     text-shadow: 2px 2px 2px #222;
 }
 
 .chefaDomicilio_container .definicao{
-    font-size: 1.4em;
+    font-size: 1em;
     font-family: var(--font-2); 
     color: #222222b6;
 }
 
 @media screen and (min-width: 950px ) {
   .chefaDomicilio_container .definicao{
-    font-size: 2.5em;    
+    font-size: 1.8em;    
 }
 }
 

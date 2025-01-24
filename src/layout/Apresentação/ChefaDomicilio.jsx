@@ -1,22 +1,42 @@
 import './ChefaDomicilio.css'
 
-import PrincipiosMorais from '../images/icon/principios-morais.png'
-import Beneficios from '../images/icon/beneficios.png'
-import PratoComida from '../images/icon/comida-e-restaurante.png'
-import MeChama from './MeChama'
+import PrincipiosMorais from '../../images/icon/principios-morais.png'
+import Beneficios from '../../images/icon/beneficios.png'
+import PratoComida from '../../images/icon/comida-e-restaurante.png'
 
 const ChefaDomicilio = () => {
   return (
-    <div className="mt-md-4 mt-xl-5 container ">
+    <div className="mt-md-4 mt-xl-5 container" id="conheca">
       <div className="chefaDomicilio_container d-block text-center p-2 rounded-2">
-        <MeChama />
+        {/* Me chama */}
+        <div
+          style={{
+            fontFamily: 'var(--font-2)',
+            color: '#222222b6',
+          }}
+          className="text-center pt-3 px-3  pt-lg-5 "
+        >
+          <p className="fs-2">
+            Quer deixar a comida da semana preparada e organizada para
+            <span
+              className="p-3 fw-bold"
+              style={{ fontFamily: 'var(--font-3)' }}
+            >
+              facilitar
+            </span>
+            o seu dia-a-dia e sem deixar de se alimentar bem?
+          </p>
+        </div>
 
-        <h1 className="pt-2 pt-md-3 pt-lg-5"> Chef à Domicílio </h1>
-        <p className="definicao fw-bold p-1 p-lg-5">
-          Ofereço o preparo de refeições veganas para você e sua familia de
-          acordo com suas necessidades, preferências ou restrições.
+        <h1 className="pt-2 pt-md-3"> Chef à Domicílio </h1>
+        <p className="definicao fw-bold p-1 p-lg-3">
+          Ofereço o preparo de refeições
+          <span className="p-3 fw-bold" style={{ fontFamily: 'var(--font-3)' }}>
+            veganas
+          </span>
+          para você e sua familia de acordo com suas necessidades, preferências
+          ou restrições.
         </p>
-
         <div className="row p-1 p-sm-2 p-md-3 p-lg-5 g-3">
           <div className="col-sm-6 col-lg-4 ">
             <div

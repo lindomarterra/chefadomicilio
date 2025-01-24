@@ -1,7 +1,9 @@
 
 const MessageConfirmed = () => {
   return (
-    <div>MessageConfirmed</div>
+    <div>
+      usar redirect com useNavegati()
+    </div>
   )
 }
 
