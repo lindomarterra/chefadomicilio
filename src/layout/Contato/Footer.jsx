@@ -13,7 +13,7 @@ const Footer = () => {
   }
 
   return (
-    <footer style={myStyle}  id='contact' >
+    <footer style={myStyle} id="contact">
       <section>
         <div className="container py-5 ">
           <div className="row">
@@ -32,11 +32,7 @@ const Footer = () => {
                   Solicite orçamentos pelo contatos abaixo:
                 </p>
 
-                <img
-                  src={ImgLogo}
-                  alt="imaLogo"
-                  className="w-25 mb-3"                  
-                />
+                <img src={ImgLogo} alt="imaLogo" className="w-25 mb-3" />
 
                 <p>
                   Email:

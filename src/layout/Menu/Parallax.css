@@ -1,11 +1,14 @@
 .parallax{
-    background-image: url(../images/refeicao/shutterstock-437247709-300x200.jpg);
+    background-image: url(../../images/catering/6.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    padding-top: 88px;
+    padding: 30px 0;
 }
 
+.pelicula_parallax{
+    background-color: #2222224b;
+}
 
 

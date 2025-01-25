@@ -17,25 +17,38 @@ import Petisco3 from '../../images/petiscos/petisco3.png'
 import Petisco7 from '../../images/petiscos/petisco7.png'
 import Petisco6 from '../../images/petiscos/petisco6.png'
 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Gallery = () => {
   return (
-    <div className="container mb-5"   id='menu' >
+    <div className="container pt-5" id="galeria">
+      <div className="text-center p-2">
+        <Link
+          to="cardapio"
+          target="_self"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className="btn_menu"
+        >
+          Cardápio
+        </Link>
+      </div>
 
-      <div className="text-center p-5">
+      <div className="text-center p-1">
         <button
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide-to="0"
-          className="active btn_hover p-1 m-1 m-sm-2 m-md-3 m-lg-4 rounded-1"
+          className="active btn_hover p-1 m-1 m-sm-2 m-md-3 rounded-1"
           aria-current="true"
           aria-label="Slide 1"
         >
           Refeições
         </button>
         <button
-          className="btn_hover p-1 m-1 m-sm-2 m-md-3 m-lg-4 rounded-1"
+          className="btn_hover p-1 m-1 m-sm-2 m-md-3 rounded-1"
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide-to="1"
@@ -44,7 +57,7 @@ const Gallery = () => {
           Brunches
         </button>
         <button
-          className="btn_hover p-1 m-1 m-sm-2 m-md-3 m-lg-4 rounded-1"
+          className="btn_hover p-1 m-1 m-sm-2 m-md-3 rounded-1"
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide-to="2"
@@ -54,14 +67,24 @@ const Gallery = () => {
         </button>
       </div>
 
-
-      <div id="carouselExample" className="carousel carousel-fade slide" data-bs-ride="carousel" >
+      <div
+        id="carouselExample"
+        className="carousel carousel-fade slide"
+        data-bs-ride="carousel"
+      >
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="15000" >
+          <div className="carousel-item active" data-bs-interval="5000">
             <div className="container">
               <div className="row g-0">
                 <div className="col-md-6 col-lg-4  ">
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="refeicao"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '250px' }}
                       src={Refeicao2}
@@ -70,7 +93,14 @@ const Gallery = () => {
                     />
                   </Link>
 
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="refeicao"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '250px' }}
                       src={Refeicao1}
@@ -80,7 +110,14 @@ const Gallery = () => {
                   </Link>
                 </div>
                 <div className="col-md-6 col-lg-4  ">
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="refeicao"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '500px' }}
                       src={Refeicao3}
@@ -90,7 +127,14 @@ const Gallery = () => {
                   </Link>
                 </div>
                 <div className="col-md-6 col-lg-4  ">
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="refeicao"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '250px' }}
                       src={Refeicao5}
@@ -98,7 +142,14 @@ const Gallery = () => {
                       className="d-block w-100 rounded-4 p-2"
                     />
                   </Link>
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="refeicao"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '250px' }}
                       src={Refeicao4}
@@ -111,11 +162,18 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="carousel-item" data-bs-interval="15000" >
+          <div className="carousel-item" data-bs-interval="5000">
             <div className="container">
               <div className="row g-0">
                 <div className="col-md-6 col-lg-4  ">
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="brunches"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '500px' }}
                       src={Brunch3}
@@ -125,7 +183,14 @@ const Gallery = () => {
                   </Link>
                 </div>
                 <div className="col-md-6 col-lg-4  ">
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="brunches"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '250px' }}
                       src={Brunch1}
@@ -134,7 +199,14 @@ const Gallery = () => {
                     />
                   </Link>
 
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="brunches"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '250px' }}
                       src={Brunch2}
@@ -144,7 +216,14 @@ const Gallery = () => {
                   </Link>
                 </div>
                 <div className="col-md-6 col-lg-4  ">
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="brunches"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '500px' }}
                       src={Brunch4}
@@ -157,11 +236,18 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="carousel-item" data-bs-interval="15000" >
+          <div className="carousel-item" data-bs-interval="5000">
             <div className="container">
               <div className="row g-0">
                 <div className="col-md-6 col-lg-4  ">
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="petiscos"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '500px' }}
                       src={Petisco1}
@@ -171,7 +257,14 @@ const Gallery = () => {
                   </Link>
                 </div>
                 <div className="col-md-6 col-lg-4  ">
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="petiscos"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '250px' }}
                       src={Petisco2}
@@ -179,7 +272,14 @@ const Gallery = () => {
                       className="d-block w-100 rounded-4 p-2"
                     />
                   </Link>
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="petiscos"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '250px' }}
                       src={Petisco3}
@@ -189,7 +289,14 @@ const Gallery = () => {
                   </Link>
                 </div>
                 <div className="col-md-6 col-lg-4">
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="petiscos"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '300px' }}
                       src={Petisco6}
@@ -197,7 +304,14 @@ const Gallery = () => {
                       className="d-block w-100 rounded-4 p-2"
                     />
                   </Link>
-                  <Link to="/menu" target="_self">
+                  <Link
+                    to="petiscos"
+                    target="_self"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
                     <img
                       style={{ height: '200px' }}
                       src={Petisco7}
@@ -211,13 +325,6 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-
-      <div className='text-center p-5'>
-        <Link to="/menu" target='_self' className='btn_menu'  >
-         Cardápio
-        </Link>
-      </div>
-
     </div>
   )
 }

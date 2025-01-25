@@ -9,16 +9,21 @@
     text-shadow: 2px 2px 2px #222;
 }
 
-.chefaDomicilio_container .definicao{
-    font-size: 1em;
+.chefaDomicilio_container p{
+    font-size: 1.2em;
     font-family: var(--font-2); 
     color: #222222b6;
 }
 
 @media screen and (min-width: 950px ) {
-  .chefaDomicilio_container .definicao{
-    font-size: 1.8em;    
+  .chefaDomicilio_container p{
+    font-size: 1.5em;    
 }
+}
+
+.chefaDomicilio_container span{
+    font-family: var(--font-3);
+    padding: 0 5px;
 }
 
 .chefaDomicilio_container li{

@@ -3,53 +3,14 @@
     overflow: hidden;
 }
 
-.container a img{ 
-    transition: all 200ms linear; 
-}
-
-.container a:hover img{
-    transform: scale(1.08);
-}
-
-
-
-
-.btn_hover{
-    border: none;
-    background-color: #6cad63 ;
-    color: #ffffffda ;
-    width: 68px;
-    font-family: var(--font-2);  
-    box-shadow: 2px 2px 2px #222; 
-    transition: .5s; 
-}
-
-.btn_hover:checked{
-    background-color: #fff;
-    color: var(--color1) ;
-}
-
-.btn_hover:hover{
-    background-color: #fff;
-    color: #6cad63;
-}
-
-@media screen and (min-width: 576px) {
-    .btn_hover{
-        width: 100px;
-    }
-}
-
-
-
 .btn_menu {
     letter-spacing: 0;
     text-decoration: none;
     font-family: var(--font-4);
     color: #6cad63;
-    font-size: 4em;
-    font-weight: bolder;
+    font-size: 2.5em;    
     transition: all .5s linear;
+    cursor: pointer;
 }
 
 .btn_menu:hover,
@@ -58,6 +19,44 @@
   border-bottom: 6px solid #6cad63;
   border-top: 6px solid  #6cad63;  
 }
+
+
+.container a img{ 
+    transition: all 200ms linear; 
+    cursor: pointer;
+}
+
+.container a:hover img{
+    transform: scale(1.08);
+}
+
+.btn_hover{
+    border: none;
+    background-color: #6cad63 ;
+    color: #ffffffda ;
+    font-family: var(--font-2);  
+    box-shadow: 2px 2px 2px #222; 
+    transition: .5s; 
+    width: 50px;
+    font-size: .7em;
+}
+
+
+.btn_hover:hover{
+    background-color: #fff;
+    color: #6cad63;
+}
+
+@media screen and (min-width: 576px) {
+    .btn_hover{
+        width: 80px;
+        font-size: 1em;
+    }
+}
+
+
+
+
 
 
 

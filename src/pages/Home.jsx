@@ -2,9 +2,10 @@ import Header from '../layout/Navbar/Header'
 import Menu from '../layout/Menu/Menu'
 import IntroComponent from '../layout/Apresentação/IntroComponent'
 
-
-import Contato from '../layout/Contato/Footer'
 import ChefaDomicilio from '../layout/Apresentação/ChefaDomicilio'
+import NossosServicos from '../layout/Apresentação/NossosServicos'
+import Contato from '../layout/Contato/Footer'
+import Parallax from '../layout/Menu/Parallax'
 
 
 
@@ -13,12 +14,10 @@ const Home = () => {
     <div style={{ minHeight: '75vh' }} className="position-relative">
       <Header/>
       <IntroComponent/>
-       <ChefaDomicilio/>
-
+      <ChefaDomicilio/>
+      <NossosServicos/>
       <Menu/>
-
-
-
+      <Parallax/>
       <Contato/>
       
     </div>

@@ -49,31 +49,46 @@ const Header = () => {
             >
               <li className="nav-item">
                 <Link
-                  style={{ color: 'green' }}
+                  style={{ color: 'green'}}
                   className="nav-link pointer-event"
                   aria-current="page"
-                  to="menu"
+                  to="cardapio"
                   target="_self"
                   spy={true}
                   smooth={true}
                   offset={50}
                   duration={500}
                 >
-                  Menu
+                  Cardápio
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  style={{ color: 'green' }}
+                  className="nav-link pointer-event"
+                  aria-current="page"
+                  to="galeria"
+                  target="_self"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Galeria
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   style={{ color: 'green' }}
                   className="nav-link"
-                  to="sobre"
+                  to="servicos"
                   target="_self"
                   spy={true}
                   smooth={true}
                   offset={50}
                   duration={500}
                 >
-                  Sobre
+                  Serviços
                 </Link>
               </li>
               <li className="nav-item">
@@ -90,28 +105,56 @@ const Header = () => {
                   Contact
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  style={{ color: 'green' }}
+                  className="nav-link"
+                  to="catering"
+                  target="_self"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                Catering
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  style={{ color: 'green' }}
+                  className="nav-link"
+                  to="sobre"
+                  target="_self"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Sobre
+                </Link>
+              </li>
             </ul>
             <div className="align-self-end d-none d-sm-flex ">
               <ul className="list-unstyled pt-2 pe-4">
                 <li className="nav-item">
-                  <Link
+                  <a
                     style={{ color: 'var(--color5)' }}
                     className="nav-link text-decoration-none fw-bolder"
-                    to="https://www.instagram.com/rosy.klamt/?locale=en_CA"
+                    href="https://www.instagram.com/rosy.klamt/?locale=en_CA"
                     target="_blank"
                   >
                     <FaInstagram />
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     style={{ color: 'var(--color5)' }}
                     className="nav-link text-decoration-none fw-bolder"
-                    to="https://www.linkedin.com/in/roseli-klamt-388497235/"
+                    href="https://www.linkedin.com/in/roseli-klamt-388497235/"
                     target="_blank"
                   >
                     <FaLinkedin />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

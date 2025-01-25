@@ -6,50 +6,32 @@ import PratoComida from '../../images/icon/comida-e-restaurante.png'
 
 const ChefaDomicilio = () => {
   return (
-    <div className="mt-md-4 mt-xl-5 container" id="conheca">
+    <div className="p-3 p-md-5 container" id="conheca">
       <div className="chefaDomicilio_container d-block text-center p-2 rounded-2">
-        {/* Me chama */}
-        <div
-          style={{
-            fontFamily: 'var(--font-2)',
-            color: '#222222b6',
-          }}
-          className="text-center pt-3 px-3  pt-lg-5 "
-        >
-          <p className="fs-2">
-            Quer deixar a comida da semana preparada e organizada para
-            <span
-              className="p-3 fw-bold"
-              style={{ fontFamily: 'var(--font-3)' }}
-            >
-              facilitar
-            </span>
-            o seu dia-a-dia e sem deixar de se alimentar bem?
-          </p>
-        </div>
-
-        <h1 className="pt-2 pt-md-3"> Chef à Domicílio </h1>
-        <p className="definicao fw-bold p-1 p-lg-3">
-          Ofereço o preparo de refeições
-          <span className="p-3 fw-bold" style={{ fontFamily: 'var(--font-3)' }}>
-            veganas
-          </span>
-          para você e sua familia de acordo com suas necessidades, preferências
-          ou restrições.
+        <h1 className="pt-2"> Chef à Domicílio </h1>
+        <p>
+          Quer deixar a comida da semana preparada e organizada para <span>facilitar</span> o
+          seu dia-a-dia e sem deixar de se alimentar bem?
         </p>
-        <div className="row p-1 p-sm-2 p-md-3 p-lg-5 g-3">
-          <div className="col-sm-6 col-lg-4 ">
+        <p>
+          Ofereço o preparo de refeições <span>veganas</span> para você e sua familia de acordo
+          com suas necessidades, preferências ou restrições.
+        </p>
+
+        {/* os 3 Banners */}
+        <div className="row p-1 g-3">
+          <div className="col-sm-6 col-lg-4">
             <div
-              className="rounded-2 p-2 "
+              className="rounded-2 p-2 shadow-sm"
               style={{
                 backgroundColor: '#addb97',
-                minHeight: '425px',
+                minHeight: '300px',
               }}
             >
               <img
                 src={PrincipiosMorais}
                 alt="principiosMorais"
-                className="w-50 p-1"
+                className="w-25 p-1"
               />
               <p className="fs-3" style={{ fontFamily: 'var(--font-4)' }}>
                 # Princípios
@@ -70,13 +52,13 @@ const ChefaDomicilio = () => {
           </div>
           <div className="col-sm-6 col-lg-4 ">
             <div
-              className="rounded-2 p-2 "
+              className="rounded-2 p-2 shadow-sm"
               style={{
                 backgroundColor: '#eddf8e',
-                minHeight: '425px',
+                minHeight: '300px',
               }}
             >
-              <img src={Beneficios} alt="Beneficios" className="w-50 p-1" />
+              <img src={Beneficios} alt="Beneficios" className="w-25 p-1" />
               <p className="fs-3" style={{ fontFamily: 'var(--font-4)' }}>
                 # Beneficios
               </p>
@@ -97,10 +79,10 @@ const ChefaDomicilio = () => {
               className="rounded-2 p-2 "
               style={{
                 backgroundColor: '#c6c9a7',
-                minHeight: '425px',
+                minHeight: '300px',
               }}
             >
-              <img src={PratoComida} alt="PratoComida" className="w-50 p-1" />
+              <img src={PratoComida} alt="PratoComida" className="w-25 p-1" />
               <p className="fs-3" style={{ fontFamily: 'var(--font-4)' }}>
                 # Sugestões de cardápio
               </p>

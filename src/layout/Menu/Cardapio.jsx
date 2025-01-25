@@ -1,16 +1,26 @@
-import Brunch from '../images/brunch/brunch5.png'
-import Refeicao from '../images/refeicao/background.png'
-import Petisco from '../images/petiscos/petisco2.png'
+import Brunch from '../../images/brunch/brunch5.png'
+import Refeicao from '../../images/refeicao/background.png'
+import Petisco from '../../images/petiscos/petisco2.png'
 
-import GlutenFree from '../images/icon/gluten.png'
+import GlutenFree from '../../images/icon/gluten.png'
 import './Cardapio.css'
-
 
 const Cardapio = () => {
   return (
-    <section className="container-sm bg-transparent ">
+    <section className="container bg-transparent ">
+      <h5
+        className="text-center fw-bolder fs-2 py-5"
+        style={{
+          color: 'var(--color5)',
+          fontFamily: 'var(--font-6)',
+          textShadow: '2ox 2px 2px #222',
+        }}
+      >
+        Sujestão de Cardápio
+      </h5>
+
       {/* brunches e cafe da manha */}
-      <div className="itemCardapio bg-light my-5 rounded-end-5">
+      <div className="itemCardapio bg-light my-2 rounded-end-5" id="brunches">
         <div className="row">
           <div className="col-md-6">
             <img
@@ -32,7 +42,12 @@ const Cardapio = () => {
                 style={{ fontFamily: 'var(--font-1)' }}
               >
                 <li>
-                  Tofu scrambled <img src={GlutenFree} alt="gluten-free" style={{width: '20px'}} />
+                  Tofu scrambled{' '}
+                  <img
+                    src={GlutenFree}
+                    alt="gluten-free"
+                    style={{ width: '20px' }}
+                  />
                 </li>
                 <li> Pão de queijo </li>
                 <li> Homus </li>
@@ -44,16 +59,14 @@ const Cardapio = () => {
                 <li>Panquecas </li>
                 <li>Torta salgada de legumes </li>
                 <li> Leites vegetais e sucos naturais </li>
-                <li>
-                  Creme de abacate com cacau e granola
-                </li>
+                <li>Creme de abacate com cacau e granola</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
       {/* refeição */}
-      <div className="itemCardapio bg-light my-5 rounded-start-5">
+      <div className="itemCardapio bg-light my-2 rounded-start-5" id="refeicao">
         <div className="row">
           <div className="col-md-6">
             <div className="text-black-50 mt-5">
@@ -91,7 +104,7 @@ const Cardapio = () => {
         </div>
       </div>
       {/* brunches e cafe da manha */}
-      <div className="itemCardapio bg-light my-5 rounded-end-5">
+      <div className="itemCardapio bg-light my-2 rounded-end-5" id="petiscos">
         <div className="row">
           <div className="col-md-6">
             <img
@@ -112,8 +125,7 @@ const Cardapio = () => {
                 className="fst-italic"
                 style={{ fontFamily: 'var(--font-1)' }}
               >
-                <li>  </li>
-                
+                <li> </li>
               </ul>
             </div>
           </div>
