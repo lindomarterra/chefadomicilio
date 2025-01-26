@@ -7,20 +7,21 @@ import './Cardapio.css'
 
 const Cardapio = () => {
   return (
-    <section className="container bg-transparent ">
+    <section className="container bg-transparent pt-5 ">
       <h5
-        className="text-center fw-bolder fs-2 py-5"
+        className="py-4"
         style={{
-          color: 'var(--color5)',
-          fontFamily: 'var(--font-6)',
-          textShadow: '2ox 2px 2px #222',
+          color: 'var(--color3)',
+          fontFamily: 'var(--font-4)',
+          textShadow: '2px 2px 2px #222',
+
         }}
       >
-        Sujestão de Cardápio
+        Sujestão de Cardápio para você:
       </h5>
 
       {/* brunches e cafe da manha */}
-      <div className="itemCardapio bg-light my-2 rounded-end-5" id="brunches">
+      <div className="itemCardapio bg-light rounded-end-5" id="brunches">
         <div className="row">
           <div className="col-md-6">
             <img
@@ -33,13 +34,13 @@ const Cardapio = () => {
             <div className="text-black-50 my-3 ">
               <h5
                 className="fst-italic text-center"
-                style={{ fontFamily: 'var(--font-2)' }}
+                style={{ fontFamily: 'var(--font-6)' }}
               >
                 Brunches e cafés da manhã:
               </h5>
               <ul
                 className="fst-italic"
-                style={{ fontFamily: 'var(--font-1)' }}
+                style={{ fontFamily: 'var(--font-6)' }}
               >
                 <li>
                   Tofu scrambled{' '}
@@ -66,19 +67,19 @@ const Cardapio = () => {
         </div>
       </div>
       {/* refeição */}
-      <div className="itemCardapio bg-light my-2 rounded-start-5" id="refeicao">
+      <div className="itemCardapio bg-light rounded-start-5" id="refeicao">
         <div className="row">
           <div className="col-md-6">
             <div className="text-black-50 mt-5">
               <h5
                 className="fst-italic text-center"
-                style={{ fontFamily: 'var(--font-2)' }}
+                style={{ fontFamily: 'var(--font-6)' }}
               >
                 Refeições:
               </h5>
               <ul
                 className="fst-italic"
-                style={{ fontFamily: 'var(--font-1)' }}
+                style={{ fontFamily: 'var(--font-6)' }}
               >
                 <li> Curry </li>
                 <li> Mjadra</li>
@@ -104,7 +105,7 @@ const Cardapio = () => {
         </div>
       </div>
       {/* brunches e cafe da manha */}
-      <div className="itemCardapio bg-light my-2 rounded-end-5" id="petiscos">
+      <div className="itemCardapio bg-light rounded-end-5" id="petiscos">
         <div className="row">
           <div className="col-md-6">
             <img
@@ -117,13 +118,13 @@ const Cardapio = () => {
             <div className="text-black-50 my-3 ">
               <h5
                 className="fst-italic text-center"
-                style={{ fontFamily: 'var(--font-2)' }}
+                style={{ fontFamily: 'var(--font-6)' }}
               >
                 Lanches, petiscos e sobremesas:
               </h5>
               <ul
                 className="fst-italic"
-                style={{ fontFamily: 'var(--font-1)' }}
+                style={{ fontFamily: 'var(--font-6)' }}
               >
                 <li> </li>
               </ul>

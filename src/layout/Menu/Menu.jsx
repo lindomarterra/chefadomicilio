@@ -22,19 +22,12 @@ import { Link } from 'react-scroll'
 const Gallery = () => {
   return (
     <div className="container pt-5" id="galeria">
-      <div className="text-center p-2">
-        <Link
-          to="cardapio"
-          target="_self"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-          className="btn_menu"
-        >
-          Cardápio
-        </Link>
-      </div>
+      <h5
+        className="fw-bolder pt-2 ps-2 ps-lg-4"
+        style={{ fontFamily: 'var(--font-3)', color: 'var(--color5)' }}
+      >
+        Galeria Fotos
+      </h5>
 
       <div className="text-center p-1">
         <button
@@ -324,6 +317,20 @@ const Gallery = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="text-center py-5">
+        <Link
+          to="cardapio"
+          target="_self"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className="btn_menu"
+        >
+          Cardápio
+        </Link>
       </div>
     </div>
   )
