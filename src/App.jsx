@@ -5,10 +5,9 @@ import ConfirmedMessage from './pages/MessageConfirmed'
 
 
 const App = () => {
-
-
+   
   return (
-    <Router>
+    <Router >
 
       <Routes>
         <Route path="/" element={<Home />} />

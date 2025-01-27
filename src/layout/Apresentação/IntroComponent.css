@@ -116,13 +116,13 @@
   background-color: #6cad63;
   color: #fff;
   padding: 10px;
-  font-family: var(--font-2);
-  font-size: 1.8em;
+  font-family: var(--font-3);
+  font-size: 1.5em;
   border-radius: 8px;
   text-shadow: 2px 2px 4px #222;
   letter-spacing: 5px;
   animation:fadeUp 9s ;
-  animation: pulse 0.7s infinite;
+  animation: pulse 1s infinite;
 }
 
 @keyframes fadeUp{

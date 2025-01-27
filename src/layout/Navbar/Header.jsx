@@ -49,7 +49,7 @@ const Header = () => {
             >
               <li className="nav-item">
                 <Link
-                  style={{ color: 'green'}}
+                  style={{ color: 'green' }}
                   className="nav-link pointer-event"
                   aria-current="page"
                   to="cardapio"
@@ -60,6 +60,34 @@ const Header = () => {
                   duration={500}
                 >
                   Cardápio
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  style={{ color: 'green' }}
+                  className="nav-link"
+                  to="servicos"
+                  target="_self"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Serviços
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  style={{ color: 'green' }}
+                  className="nav-link"
+                  to="sobre"
+                  target="_self"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Sobre
                 </Link>
               </li>
               <li className="nav-item">
@@ -81,14 +109,28 @@ const Header = () => {
                 <Link
                   style={{ color: 'green' }}
                   className="nav-link"
-                  to="servicos"
+                  to="catering"
                   target="_self"
                   spy={true}
                   smooth={true}
                   offset={50}
                   duration={500}
                 >
-                  Serviços
+                  Catering
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  style={{ color: 'green' }}
+                  className="nav-link"
+                  to="depoimentos"
+                  target="_self"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Depoimentos
                 </Link>
               </li>
               <li className="nav-item">
@@ -103,34 +145,6 @@ const Header = () => {
                   duration={500}
                 >
                   Contact
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  style={{ color: 'green' }}
-                  className="nav-link"
-                  to="catering"
-                  target="_self"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                >
-                Catering
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  style={{ color: 'green' }}
-                  className="nav-link"
-                  to="sobre"
-                  target="_self"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                >
-                  Sobre
                 </Link>
               </li>
             </ul>

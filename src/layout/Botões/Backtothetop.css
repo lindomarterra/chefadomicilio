@@ -1,0 +1,19 @@
+.arrow {
+  padding-left: 20px;
+  padding-right: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: all 0.3s linear;
+  margin-left: -100px;
+  
+}
+.arrow:hover {
+  margin-left: 0;
+}
+
+.arrow span{
+    font-family: var(--font-1);
+    color: #222222b2;
+    padding-right: 10px;
+    font-size: 0.8em;
+}

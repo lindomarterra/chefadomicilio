@@ -1,13 +1,15 @@
-import Brunch from '../../images/brunch/brunch1.png'
-import Refeicao from '../../images/refeicao/background.png'
-import Petisco from '../../images/petiscos/petisco2.png'
+import Catering01 from '../../images/catering/catering01.png'
+import Catering02 from '../../images/catering/catering02.png'
+import Catering03 from '../../images/catering/catering03.png'
+import Catering04 from '../../images/catering/catering04.png'
+
 
 import GlutenFree from '../../images/icon/gluten.png'
 import './Cardapio.css'
 
-const Cardapio = () => {
+const Catering = () => {
   return (
-    <section className="container bg-transparent py-5" id="cardapio">
+    <section className="container bg-transparent py-5" id="catering">
       <h5
         className="py-4"
         style={{
@@ -16,19 +18,20 @@ const Cardapio = () => {
           textShadow: '2px 2px 2px #222',
         }}
       >
-        Sujestão de Cardápio para você:
+        Catering temático:
       </h5>
 
-      {/* brunches e cafe da manha */}
+      {/* tema 01 */}
       <div
         style={{ borderRadius: '0 30px 0 0 ' }}
         className="itemCardapio bg-light"
+        id="brunches"
       >
         <div className="row">
           <div className="col-md-6">
             <img
-              src={Brunch}
-              alt="brunch"
+              src={Catering01}
+              alt="catering01"
               className="w-100 d-block rounded-end-5"
               style={{ height: '350px' }}
             />
@@ -39,7 +42,7 @@ const Cardapio = () => {
                 className="fst-italic text-center"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                Brunches e cafés da manhã:
+                Tema zero e um:
               </h5>
               <ul
                 className="fst-italic"
@@ -69,8 +72,8 @@ const Cardapio = () => {
           </div>
         </div>
       </div>
-      {/* refeição */}
-      <div className="itemCardapio bg-light">
+      {/* tema 02 */}
+      <div className="itemCardapio bg-light r" id="refeicao">
         <div className="row">
           <div className="col-md-6">
             <div className="text-black-50 mt-5">
@@ -78,7 +81,7 @@ const Cardapio = () => {
                 className="fst-italic text-center"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                Refeições:
+                Tema zero e dois
               </h5>
               <ul
                 className="fst-italic"
@@ -89,31 +92,26 @@ const Cardapio = () => {
                 <li>Moqueca</li>
                 <li>Feijoada</li>
                 <li>Massas</li>
-                <li>Burgers</li>
-                <li>Lasanhas</li>
               </ul>
             </div>
           </div>
           <div className="col-md-6">
             <img
-              src={Refeicao}
-              alt="refeicao"
+              src={Catering02}
+              alt="catering02"
               className="w-100 d-block rounded-start-5"
               style={{ height: '350px' }}
             />
           </div>
         </div>
       </div>
-      {/* petiscos e lanches */}
-      <div
-        className="itemCardapio bg-light"
-        style={{ borderRadius: '0 0 30px 0 ' }}
-      >
+      {/* Tema 03 */}
+      <div className="itemCardapio bg-light" id="petiscos">
         <div className="row">
           <div className="col-md-6">
             <img
-              src={Petisco}
-              alt="petisco"
+              src={Catering03}
+              alt="catering03"
               className="w-100 d-block rounded-end-5"
               style={{ height: '350px' }}
             />
@@ -124,7 +122,7 @@ const Cardapio = () => {
                 className="fst-italic text-center"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                Lanches, petiscos e sobremesas:
+                Tema zero e tres:
               </h5>
               <ul
                 className="fst-italic"
@@ -136,8 +134,42 @@ const Cardapio = () => {
           </div>
         </div>
       </div>
+      {/* Tema 04 */}
+      <div
+        style={{ borderRadius: '0 0 0 30px' }}
+        className="itemCardapio bg-light r"
+        id="refeicao"
+      >
+        <div className="row">
+          <div className="col-md-6">
+            <div className="text-black-50 mt-5">
+              <h5
+                className="fst-italic text-center"
+                style={{ fontFamily: 'var(--font-6)' }}
+              >
+                Tema 04:
+              </h5>
+              <ul
+                className="fst-italic"
+                style={{ fontFamily: 'var(--font-6)' }}
+              >
+                <li> Curry </li>
+                <li> Mjadra</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <img
+              src={Catering04}
+              alt="catering04"
+              className="w-100 d-block rounded-start-5"
+              style={{ height: '350px' }}
+            />
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
 
-export default Cardapio
+export default Catering
