@@ -7,21 +7,24 @@ import './Cardapio.css'
 
 const Cardapio = () => {
   return (
-    <section className="container bg-transparent pt-5 ">
+    <section className="container bg-transparent py-5 ">
       <h5
         className="py-4"
         style={{
           color: 'var(--color3)',
           fontFamily: 'var(--font-4)',
           textShadow: '2px 2px 2px #222',
-
         }}
       >
         Sujestão de Cardápio para você:
       </h5>
 
       {/* brunches e cafe da manha */}
-      <div className="itemCardapio bg-light rounded-end-5" id="brunches">
+      <div
+        style={{ borderRadius: '0 30px 0 0 ' }}
+        className="itemCardapio bg-light"
+        id="brunches"
+      >
         <div className="row">
           <div className="col-md-6">
             <img
@@ -67,7 +70,7 @@ const Cardapio = () => {
         </div>
       </div>
       {/* refeição */}
-      <div className="itemCardapio bg-light rounded-start-5" id="refeicao">
+      <div className="itemCardapio bg-light r" id="refeicao">
         <div className="row">
           <div className="col-md-6">
             <div className="text-black-50 mt-5">
@@ -104,8 +107,8 @@ const Cardapio = () => {
           </div>
         </div>
       </div>
-      {/* brunches e cafe da manha */}
-      <div className="itemCardapio bg-light rounded-end-5" id="petiscos">
+      {/* petiscos e lanches */}
+      <div className="itemCardapio bg-light" id="petiscos">
         <div className="row">
           <div className="col-md-6">
             <img
@@ -129,6 +132,36 @@ const Cardapio = () => {
                 <li> </li>
               </ul>
             </div>
+          </div>
+        </div>
+      </div>
+      {/* outros */}
+      <div style={{borderRadius:'0 0 0 30px'}} className="itemCardapio bg-light r" id="refeicao">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="text-black-50 mt-5">
+              <h5
+                className="fst-italic text-center"
+                style={{ fontFamily: 'var(--font-6)' }}
+              >
+                Outros:
+              </h5>
+              <ul
+                className="fst-italic"
+                style={{ fontFamily: 'var(--font-6)' }}
+              >
+                <li> Curry </li>
+                <li> Mjadra</li>
+                
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <img
+              src={Refeicao}
+              alt="refeicao"
+              className="w-100 d-block rounded-start-5"
+            />
           </div>
         </div>
       </div>
