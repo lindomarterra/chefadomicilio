@@ -1,4 +1,4 @@
-import './Menu.css'
+import './Galeria.css'
 
 import Refeicao1 from '../../images/refeicao/refeicao1.png'
 import Refeicao2 from '../../images/refeicao/refeicao2.png'
@@ -23,42 +23,16 @@ const Gallery = () => {
   return (
     <div className="container pt-5" id="galeria">
       <h5
-        className="fw-bolder pt-2 ps-2 ps-lg-4"
-        style={{ fontFamily: 'var(--font-3)', color: 'var(--color5)' }}
+        className='ps-4 pt-5'
+        style={{
+          fontSize: '2em',
+          color: '#6cad63',
+          fontFamily: 'var(--font-4)',
+          textShadow: '2px 2px 2px #22222248',
+        }}
       >
-        Galeria Fotos
+      Galeria Fotos
       </h5>
-
-      <div className="text-center p-1">
-        <button
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide-to="0"
-          className="active btn_hover p-1 m-1 m-sm-2 m-md-3 rounded-1"
-          aria-current="true"
-          aria-label="Slide 1"
-        >
-          Refeições
-        </button>
-        <button
-          className="btn_hover p-1 m-1 m-sm-2 m-md-3 rounded-1"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        >
-          Brunches
-        </button>
-        <button
-          className="btn_hover p-1 m-1 m-sm-2 m-md-3 rounded-1"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        >
-          Petiscos
-        </button>
-      </div>
 
       <div
         id="carouselExample"
@@ -71,7 +45,7 @@ const Gallery = () => {
               <div className="row g-0">
                 <div className="col-md-6 col-lg-4  ">
                   <Link
-                    to="refeicao"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -87,7 +61,7 @@ const Gallery = () => {
                   </Link>
 
                   <Link
-                    to="refeicao"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -104,7 +78,7 @@ const Gallery = () => {
                 </div>
                 <div className="col-md-6 col-lg-4  ">
                   <Link
-                    to="refeicao"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -121,7 +95,7 @@ const Gallery = () => {
                 </div>
                 <div className="col-md-6 col-lg-4  ">
                   <Link
-                    to="refeicao"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -136,7 +110,7 @@ const Gallery = () => {
                     />
                   </Link>
                   <Link
-                    to="refeicao"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -160,7 +134,7 @@ const Gallery = () => {
               <div className="row g-0">
                 <div className="col-md-6 col-lg-4  ">
                   <Link
-                    to="brunches"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -177,7 +151,7 @@ const Gallery = () => {
                 </div>
                 <div className="col-md-6 col-lg-4  ">
                   <Link
-                    to="brunches"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -193,7 +167,7 @@ const Gallery = () => {
                   </Link>
 
                   <Link
-                    to="brunches"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -210,7 +184,7 @@ const Gallery = () => {
                 </div>
                 <div className="col-md-6 col-lg-4  ">
                   <Link
-                    to="brunches"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -234,7 +208,7 @@ const Gallery = () => {
               <div className="row g-0">
                 <div className="col-md-6 col-lg-4  ">
                   <Link
-                    to="petiscos"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -251,7 +225,7 @@ const Gallery = () => {
                 </div>
                 <div className="col-md-6 col-lg-4  ">
                   <Link
-                    to="petiscos"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -266,7 +240,7 @@ const Gallery = () => {
                     />
                   </Link>
                   <Link
-                    to="petiscos"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -283,7 +257,7 @@ const Gallery = () => {
                 </div>
                 <div className="col-md-6 col-lg-4">
                   <Link
-                    to="petiscos"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}
@@ -298,7 +272,7 @@ const Gallery = () => {
                     />
                   </Link>
                   <Link
-                    to="petiscos"
+                    to="cardapio"
                     target="_self"
                     spy={true}
                     smooth={true}

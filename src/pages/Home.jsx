@@ -1,5 +1,5 @@
 import Header from '../layout/Navbar/Header'
-import Menu from '../layout/Menu/Menu'
+import Galeria from '../layout/Menu/Galeria'
 import IntroComponent from '../layout/Apresentação/IntroComponent'
 
 import ChefaDomicilio from '../layout/Apresentação/ChefaDomicilio'
@@ -16,7 +16,7 @@ const Home = () => {
       <IntroComponent/>
       <ChefaDomicilio/>
       <NossosServicos/>
-      <Menu/>
+      <Galeria/>
       <Parallax/>
       <Contato/>
       

@@ -30,29 +30,7 @@
     transform: scale(1.08);
 }
 
-.btn_hover{
-    border: none;
-    background-color: #6cad63 ;
-    color: #ffffffda ;
-    font-family: var(--font-2);  
-    box-shadow: 2px 2px 2px #222; 
-    transition: .5s; 
-    width: 50px;
-    font-size: .7em;
-}
 
-
-.btn_hover:hover{
-    background-color: #fff;
-    color: #6cad63;
-}
-
-@media screen and (min-width: 576px) {
-    .btn_hover{
-        width: 80px;
-        font-size: 1em;
-    }
-}
 
 
 

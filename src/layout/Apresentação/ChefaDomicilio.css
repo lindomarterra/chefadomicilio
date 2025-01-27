@@ -6,12 +6,12 @@
     font-size: 3.5em ;
     color: #6cad63;
     font-family: var(--font-4);
-    text-shadow: 2px 2px 2px #222;
+    text-shadow: 2px 2px 2px #222222af;
 }
 
 .chefaDomicilio_container p{
     font-size: 1.2em;
-    font-family: var(--font-2); 
+    font-family: var(--font-6); 
     color: #222222b6;
 }
 
