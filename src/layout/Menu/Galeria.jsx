@@ -15,15 +15,15 @@ import Petisco1 from '../../images/petiscos/petisco1.png'
 import Petisco2 from '../../images/petiscos/petisco2.png'
 import Petisco3 from '../../images/petiscos/petisco3.png'
 import Petisco7 from '../../images/petiscos/petisco7.png'
-import Petisco6 from '../../images/petiscos/petisco6.png'
+import Petisco6 from '../../images/petiscos/petisco5.png'
 
 import { Link } from 'react-scroll'
 
 const Gallery = () => {
   return (
-    <div className="container pt-5" id="galeria">
+    <div className="container pt-5" id="galeria" >
       <h5
-        className='ps-4 pt-5'
+        className="ps-4 pt-5"
         style={{
           fontSize: '2em',
           color: '#6cad63',
@@ -31,7 +31,7 @@ const Gallery = () => {
           textShadow: '2px 2px 2px #22222248',
         }}
       >
-      Galeria Fotos
+        Galeria Fotos
       </h5>
 
       <div

@@ -4,7 +4,7 @@ import Logo from '../../images/icon/logo.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
 
 
-const Header = () => {
+const Header = ({showBtn}) => {
   return (
     <header>
       <nav
@@ -49,6 +49,7 @@ const Header = () => {
             >
               <li className="nav-item">
                 <Link
+                  onClick={showBtn}
                   style={{ color: 'green' }}
                   className="nav-link pointer-event"
                   aria-current="page"
@@ -64,6 +65,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
+                  onClick={showBtn}
                   style={{ color: 'green' }}
                   className="nav-link"
                   to="servicos"
@@ -78,6 +80,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
+                  onClick={showBtn}
                   style={{ color: 'green' }}
                   className="nav-link"
                   to="sobre"
@@ -92,6 +95,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
+                  onClick={showBtn}
                   style={{ color: 'green' }}
                   className="nav-link pointer-event"
                   aria-current="page"
@@ -107,6 +111,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
+                  onClick={showBtn}
                   style={{ color: 'green' }}
                   className="nav-link"
                   to="catering"
@@ -121,6 +126,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
+                  onClick={showBtn}
                   style={{ color: 'green' }}
                   className="nav-link"
                   to="depoimentos"
@@ -135,6 +141,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
+                  onClick={showBtn}
                   style={{ color: 'green' }}
                   className="nav-link"
                   to="contact"

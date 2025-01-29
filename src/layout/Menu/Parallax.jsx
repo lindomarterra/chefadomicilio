@@ -4,10 +4,10 @@ import Catering from './Catering'
 
 const Parallax = () => {
   return (
-    <div className="parallax">
-      <div className='pelicula_parallax' >
+    <div className="parallax" >
+      <div className="pelicula_parallax">
         <Cardapio />
-        <Catering/>
+        <Catering />
       </div>
     </div>
   )

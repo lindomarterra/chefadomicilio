@@ -1,10 +1,10 @@
 .btn_whats{
     position: fixed;
-    left: 3%;
+    right: 3%;
     bottom: 4%;
     background-color: green;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +14,9 @@
 }
 
 .btn_whats:hover , .btn_whats svg:hover{
-    width: 50px;
-    height: 50px;
-    font-size: 3em;
+    width: 60px;
+    height: 60px;
+    font-size: 4em;
 }
 
 .btn_whats svg{

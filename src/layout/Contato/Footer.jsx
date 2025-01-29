@@ -13,7 +13,7 @@ const Footer = () => {
   }
 
   return (
-    <footer style={myStyle} id="contact">
+    <footer style={myStyle} id="contact" >
       <section>
         <div className="container py-5 ">
           <div className="row">

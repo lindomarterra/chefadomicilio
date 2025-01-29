@@ -3,9 +3,10 @@ import { Link } from 'react-scroll'
 import Rose from '../../images/icon/rose.png'
 import Klamt from '../../images/icon/klamt.png'
 
-const IntroComponent = ({showBtn}) => {
+const IntroComponent = ({showBtn, hideBtn}) => {
+ 
   return (
-    <div className="introComponent" id="introducao">
+    <div className="introComponent" id="introducao" onMouseOver={hideBtn}>
       <div className="pelicula">
         <img src={Rose} alt="rose" className="d-block rose" />
         <img src={Klamt} alt="klamt" className="d-block klamt" />
@@ -17,7 +18,6 @@ const IntroComponent = ({showBtn}) => {
         </p>
         <Link
           onClick={showBtn}
-          onScroll={showBtn}
           to="conheca"
           className="arrow-down"
           target="_self"
