@@ -20,17 +20,13 @@ const Cardapio = () => {
       </h5>
 
       {/* brunches e cafe da manha */}
-      <div
-        style={{ borderRadius: '0 30px 0 0 ' }}
-        className="itemCardapio bg-light"
-      >
+      <div className="itemCardapio bg-light" >
         <div className="row">
           <div className="col-md-6">
             <img
               src={Brunch}
               alt="brunch"
-              className="w-100 d-block rounded-end-5"
-              style={{ height: '350px' }}
+              className="w-100 d-block rounded-end-5 img-thumbnail"
             />
           </div>
           <div className="col-md-6">
@@ -131,7 +127,7 @@ const Cardapio = () => {
         </div>
       </div>
       {/* refeição */}
-      <div className="itemCardapio bg-light">
+      <div className="itemCardapio bg-light mt-3 mt-md-0">
         <div className="row">
           <div className="col-md-6">
             <div className="text-black-50 mt-5">
@@ -172,24 +168,20 @@ const Cardapio = () => {
             <img
               src={Refeicao}
               alt="refeicao"
-              className="w-100 d-block rounded-start-5"
-              style={{ height: '350px' }}
+              className="w-100 d-block rounded-start-5 img-thumbnail "
             />
           </div>
         </div>
       </div>
       {/* lanches e sobremesas */}
       <div
-        className="itemCardapio bg-light"
-        style={{ borderRadius: '0 0 30px 0 ' }}
-      >
+        className="itemCardapio bg-light mt-3 mt-md-0" >
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 ">
             <img
               src={Petisco}
               alt="petisco"
-              className="w-100 d-block rounded-end-5"
-              style={{ height: '350px' }}
+              className="w-100 d-block rounded-end-5 img-thumbnail "
             />
           </div>
           <div className="col-md-6">

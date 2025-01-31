@@ -1,3 +1,23 @@
+.itemCardapio:nth-last-child(3){
+    border-radius: 0 30px 0 0;
+}
+.itemCardapio:nth-last-child(2){
+    border-radius: 0 0 0 30px ;
+}
+
+.itemCardapio:nth-last-child(1){
+    border-radius: 0 30px 0 0;
+}
+
+@media screen and (min-width: 768px ) {
+    .itemCardapio:nth-last-child(2){
+    border-radius: 0;
+    }
+    .itemCardapio:nth-last-child(1){
+    border-radius: 0 ;
+}
+}
+
 .itemCardapio  h5 {
     animation: titleItem 5s;
 }

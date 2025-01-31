@@ -2,10 +2,20 @@ import { Link } from 'react-scroll'
 import './Header.css'
 import Logo from '../../images/icon/logo.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
+import { TfiMenu } from 'react-icons/tfi'
+import { RiCloseLargeFill } from 'react-icons/ri'
+import { useState } from 'react'
 
 
 const Header = ({showBtn}) => {
-  return (
+
+  const [burgerShow, setBurgerShow]=useState(true)
+
+  const burgerFunction = () => {
+    setBurgerShow(!burgerShow)
+  }
+
+  return (  
     <header>
       <nav
         style={{
@@ -14,7 +24,7 @@ const Header = ({showBtn}) => {
           zIndex: '100',
           backgroundColor: '#ffffffd3 ',
         }}
-        className="navbar navbar-expand-sm w-100 shadow-lg"
+        className="navbar navbar-expand-md w-100 shadow-lg"
       >
         <div className="container">
           <Link
@@ -39,7 +49,9 @@ const Header = ({showBtn}) => {
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span onClick={burgerFunction} >
+              { burgerShow ? <TfiMenu /> :  <RiCloseLargeFill /> }                                          
+            </span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarNav">
@@ -155,7 +167,7 @@ const Header = ({showBtn}) => {
                 </Link>
               </li>
             </ul>
-            <div className="align-self-end d-none d-sm-flex ">
+            <div className="align-self-end d-none d-md-flex ">
               <ul className="list-unstyled pt-2 pe-4">
                 <li className="nav-item">
                   <a

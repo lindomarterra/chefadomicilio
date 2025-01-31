@@ -4,8 +4,7 @@ import './whatsappButton.css'
 
 const WhatsappButton = () => {
   return (
-    <Link
-      //style={{ backgroundColor: '#6cad63' }}
+    <Link      
       className="btn_whats"
       to="https://web.whatsapp.com/send?phone=5551 9694-4233"
       target="_blank"
