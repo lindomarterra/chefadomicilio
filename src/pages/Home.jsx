@@ -28,16 +28,15 @@ const Home = () => {
  
 
   return (
-    <div style={{ minHeight: '75vh' }} className="position-relative" >
-      <Header  showBtn={showBtn} />
+    <div style={{ minHeight: '75vh' }} className="position-relative"  >
+      <Header showBtn={showBtn} />
       <IntroComponent hideBtn={hideBtn} showBtn={showBtn} />
-      <ChefaDomicilio showBtn={showBtn} />
+      <ChefaDomicilio showBtn={showBtn}  /> 
       <NossosServicos />
       <Galeria />
       <Parallax />
       <Contato />
-      <WhatsappButton/>
-
+      <WhatsappButton />
       {btnShow ? (
         <span onClick={hideBtn}>
           <Backtothetop />

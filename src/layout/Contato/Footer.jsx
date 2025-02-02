@@ -13,7 +13,7 @@ const Footer = () => {
   }
 
   return (
-    <footer style={myStyle} id="contact" >
+    <footer style={myStyle} id="contact">
       <section>
         <div className="container py-5 ">
           <div className="row">
@@ -41,8 +41,9 @@ const Footer = () => {
                 <p className="lh-lg">
                   Whatsapp:
                   <Link
-                    to="https://web.whatsapp.com/send?phone=5551 9694-4233"
+                    to="https://wa.me//555196944233?text=Olá! Tudo bem? Obrigada por entrar em contato."
                     target="_blank"
+                    alt="Entrar em contato pelo whatsapp"
                     className="text-decoration-none ps-2 fw-bold text-white"
                   >
                     5551 9694-4233
@@ -81,10 +82,7 @@ const Footer = () => {
                   Parcerias
                 </h5>
 
-                <Link
-                  to="https://soulrebelrio.com/veganrioexperience"
-                  target="_blank"
-                >
+                <Link to="https://soulrebelrio.com/catering/" target="_blank">
                   <img
                     src={SoulRebelRioLogo}
                     alt="soulRebelRioLogo"
@@ -99,8 +97,9 @@ const Footer = () => {
                 <p className="lh-lg">
                   Whatsapp:
                   <Link
-                    to="https://web.whatsapp.com/send?phone=5521 98295 0900"
+                    to="https://wa.me//552182950900?text=Olá! Tudo bem? Obrigada por entrar em contato."
                     target="_blank"
+                    alt="Entrar em contato pelo whatsapp"
                     className="text-decoration-none ps-2 fw-bold text-white "
                   >
                     5521 98295 0900

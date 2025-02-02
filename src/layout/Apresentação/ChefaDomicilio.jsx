@@ -7,7 +7,12 @@ import PratoComida from '../../images/icon/comida-e-restaurante.png'
 
 const ChefaDomicilio = ({showBtn}) => {
   return (
-    <div className="px-3 py-5 container" id="conheca" onMouseOver={showBtn}>
+    <div
+      className="px-3 py-5 container"
+      id="conheca"
+      onMouseOver={showBtn}
+      //onWheel={}
+    >
       <div className="chefaDomicilio_container d-block text-center p-2 rounded-2">
         <h1 className="pt-4"> Chef à Domicílio </h1>
         <p className="p-3 text-center">
@@ -20,7 +25,7 @@ const ChefaDomicilio = ({showBtn}) => {
 
         {/* os 3 Banners */}
         <div className="row p-1 g-3">
-          <div className="col-sm-6 col-lg-4">
+          <div className="col-sm-6 col-lg-4 scrollEfect ">
             <div
               className="rounded-2 p-2 shadow-sm"
               style={{
@@ -50,7 +55,7 @@ const ChefaDomicilio = ({showBtn}) => {
               </ul>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-4 ">
+          <div className="col-sm-6 col-lg-4 scrollEfect ">
             <div
               className="rounded-2 p-2 shadow-sm"
               style={{
@@ -74,7 +79,7 @@ const ChefaDomicilio = ({showBtn}) => {
               </ul>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-4 ">
+          <div className="col-sm-6 col-lg-4 scrollEfect ">
             <div
               className="rounded-2 p-2 "
               style={{

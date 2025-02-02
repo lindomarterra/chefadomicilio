@@ -1,14 +1,12 @@
 import { Link } from 'react-router-dom'
+
 import './NossosServicos.css'
 
 import { ImLink } from 'react-icons/im'
 
 const NossosServicos = () => {
   return (
-    <section
-      className="nossoServicos_container p-3 "
-      id="servicos"
-    >
+    <section className="nossoServicos_container pt-5" id="servicos">
       <div className="container-md p-md-5 animation_container">
         <h2 className="py-4"> Serviços </h2>
         <h4 className="py-2 px-1"> O que é:</h4>
@@ -41,35 +39,24 @@ const NossosServicos = () => {
         <p>
           Nosso serviço de Catering é em parceria com a
           <strong>
-            <Link
-              to="https://soulrebelrio.com/veganrioexperience"
-              target="_blank"
-            >
+            <Link to="https://soulrebelrio.com/catering/" target="_blank">
               Soul Rebel Rio
             </Link>
             <ImLink />
           </strong>
           que fica no bairro Santa Teresa RJ, onde também oferecemos serviços de
-          <strong> Brunch </strong> semanal com agendamento prévio via{' '}
+          <strong> Brunch </strong> semanal com agendamento prévio via
           <strong>
             <Link
-              to="https://web.whatsapp.com/send?phone=5551 9694-4233"
+              to="https://wa.me//552182950900?text=Olá! Tudo bem? Obrigada por entrar em contato."
               target="_blank"
+              alt="Entrar em contato pelo whatsapp"
             >
               Whatsapp.
             </Link>
           </strong>
         </p>
-
-        <p>
-          Conheça mais sobre
-          <strong>
-            <Link to="/about" target="_self">
-              Rose Klamt
-            </Link>
-            <ImLink />
-          </strong>
-        </p>
+        
       </div>
     </section>
   )

@@ -1,9 +1,11 @@
 .nossoServicos_container{
-    background-color: #ffffffdc;    
+    background-color: #ffffffdc;        
 }
 
 .animation_container{
-    animation: letter 1s ;    
+    animation: letter linear 3s;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
 }
 
 @keyframes letter {
