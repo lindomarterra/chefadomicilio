@@ -17,15 +17,13 @@ import Petisco3 from '../../images/petiscos/petisco3.png'
 import Petisco7 from '../../images/petiscos/petisco7.png'
 import Petisco6 from '../../images/petiscos/petisco5.png'
 
-import { Link } from 'react-scroll'
-
 const Gallery = () => {
   return (
-    <div className="container pt-5" id="galeria" >
+    <div className="container pt-5">
       <h5
-        className="ps-4 pt-5"
+        className="ps-4 pt-5 mt-3"
         style={{
-          fontSize: '2em',
+          fontSize: '1.7em',
           color: '#6cad63',
           fontFamily: 'var(--font-4)',
           textShadow: '2px 2px 2px #22222248',
@@ -34,277 +32,150 @@ const Gallery = () => {
         Galeria Fotos
       </h5>
 
-      <div
-        id="carouselExample"
-        className="carousel carousel-fade slide"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="5000">
-            <div className="container">
-              <div className="row g-0">
-                <div className="col-md-6 col-lg-4  ">
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '250px' }}
-                      src={Refeicao2}
-                      alt="refeicao2"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
+      <div className="container">
+        {/** line one */}
+        <div className="row g-0 lineAnime">
+          <div className="col-md-6 col-lg-4  ">
+            <span>
+              <img
+                style={{ height: '250px' }}
+                src={Refeicao2}
+                alt="refeicao2"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
 
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '250px' }}
-                      src={Refeicao1}
-                      alt="refeicao1"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-6 col-lg-4  ">
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '500px' }}
-                      src={Refeicao3}
-                      alt="refeicao3"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-6 col-lg-4  ">
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '250px' }}
-                      src={Refeicao5}
-                      alt="refeicao5"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '250px' }}
-                      src={Refeicao4}
-                      alt="refeicao4"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
+            <span>
+              <img
+                style={{ height: '250px' }}
+                src={Refeicao1}
+                alt="refeicao1"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
           </div>
-
-          <div className="carousel-item" data-bs-interval="5000">
-            <div className="container">
-              <div className="row g-0">
-                <div className="col-md-6 col-lg-4  ">
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '500px' }}
-                      src={Brunch3}
-                      alt="brunch3"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-6 col-lg-4  ">
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '250px' }}
-                      src={Brunch1}
-                      alt="brunch1"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '250px' }}
-                      src={Brunch2}
-                      alt="brunch2"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-6 col-lg-4  ">
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '500px' }}
-                      src={Brunch4}
-                      alt="brunch4"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
+          <div className="col-md-6 col-lg-4  ">
+            <span>
+              <img
+                style={{ height: '500px' }}
+                src={Refeicao3}
+                alt="refeicao3"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
           </div>
-
-          <div className="carousel-item" data-bs-interval="5000">
-            <div className="container">
-              <div className="row g-0">
-                <div className="col-md-6 col-lg-4  ">
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '500px' }}
-                      src={Petisco1}
-                      alt="petisco1"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-6 col-lg-4  ">
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '250px' }}
-                      src={Petisco2}
-                      alt="petisco2"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '250px' }}
-                      src={Petisco3}
-                      alt="petisco3"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                </div>
-                <div className="col-md-6 col-lg-4">
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '300px' }}
-                      src={Petisco6}
-                      alt="petisco6"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                  <Link
-                    to="cardapio"
-                    target="_self"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <img
-                      style={{ height: '200px' }}
-                      src={Petisco7}
-                      alt="petisco7"
-                      className="d-block w-100 rounded-4 p-2"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
+          <div className="col-md-6 col-lg-4  ">
+            <span>
+              <img
+                style={{ height: '250px' }}
+                src={Refeicao5}
+                alt="refeicao5"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+            <span>
+              <img
+                style={{ height: '250px' }}
+                src={Refeicao4}
+                alt="refeicao4"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
           </div>
         </div>
-      </div>
 
-      <div className="text-center py-5">
-        <Link
-          to="cardapio"
-          target="_self"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-          className="btn_menu"
-        >
-          Cardápio
-        </Link>
+        {/** line two  */}
+        <div className="row g-0 lineAnime">
+          <div className="col-md-6 col-lg-4  ">
+            <span>
+              <img
+                style={{ height: '500px' }}
+                src={Brunch3}
+                alt="brunch3"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+          </div>
+          <div className="col-md-6 col-lg-4  ">
+            <span>
+              <img
+                style={{ height: '250px' }}
+                src={Brunch1}
+                alt="brunch1"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+
+            <span>
+              <img
+                style={{ height: '250px' }}
+                src={Brunch2}
+                alt="brunch2"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+          </div>
+          <div className="col-md-6 col-lg-4  ">
+            <span>
+              <img
+                style={{ height: '500px' }}
+                src={Brunch4}
+                alt="brunch4"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+          </div>
+        </div>
+
+        {/** line three */}
+        <div className="row g-0 lineAnime">
+          <div className="col-md-6 col-lg-4  ">
+            <span>
+              <img
+                style={{ height: '500px' }}
+                src={Petisco1}
+                alt="petisco1"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+          </div>
+          <div className="col-md-6 col-lg-4  ">
+            <span>
+              <img
+                style={{ height: '250px' }}
+                src={Petisco2}
+                alt="petisco2"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+            <span>
+              <img
+                style={{ height: '250px' }}
+                src={Petisco3}
+                alt="petisco3"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+          </div>
+          <div className="col-md-6 col-lg-4">
+            <span>
+              <img
+                style={{ height: '300px' }}
+                src={Petisco6}
+                alt="petisco6"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+            <span>
+              <img
+                style={{ height: '200px' }}
+                src={Petisco7}
+                alt="petisco7"
+                className="d-block w-100 rounded-4 p-2"
+              />
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   )

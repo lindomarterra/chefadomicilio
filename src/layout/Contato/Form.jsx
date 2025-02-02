@@ -3,7 +3,7 @@ import { MdAlternateEmail } from 'react-icons/md'
 const Form = () => {
   return (
     <form
-      className="text-center px-5 py-4 "
+      className="text-center px-5 py-5 "
       style={{ backgroundColor: '#22222aaa' }}
       action="https://formsubmit.co/terra.lindomar@gmail.com"
       method="POST"

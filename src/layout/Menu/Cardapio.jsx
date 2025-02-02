@@ -9,12 +9,8 @@ const Cardapio = () => {
   return (
     <section className="container bg-transparent py-5" id="cardapio">
       <h5
-        className="py-4"
-        style={{
-          color: 'var(--color3)',
-          fontFamily: 'var(--font-4)',
-          textShadow: '2px 2px 2px #222',
-        }}
+        className="pt-5 mt-4 pb-2 ps-2 fw-bolder text-black-50"
+        style={{ fontFamily: 'var(--font-6)',}}
       >
         Sujestão de Cardápio para você:
       </h5>

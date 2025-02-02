@@ -14,14 +14,14 @@
   position: relative;
   background-color: #22222263;  
 }
-.rose {
-  width: 240px;
+.rosy {
+  width: 300px;
   position: absolute;
-  top: 10%;
-  animation: rose 1s;
+  top: 18%;
+  animation: rosy 1s;
 }
 
-@keyframes rose {
+@keyframes rosy {
   from {
     margin-left: -2000px;
   }
@@ -30,11 +30,11 @@
   }
 }
 .klamt {
-  width: 250px;
+  width: 300px;
   position: absolute;
   top: 32%;
   animation: klamt 1s;
-  margin-left: 40px;
+  
 }
 
 @keyframes klamt {
@@ -108,6 +108,7 @@
   }
 }
 
+
 .pelicula .arrow-down {
   position: absolute;
   bottom: 10%;
@@ -121,7 +122,7 @@
   padding: 10px 20px ;
   border-radius: 8px;
   text-shadow: 2px 2px 4px #222;  
-  animation: pulse 4s infinite;
+  animation: pulse 4s infinite;  
 }
 
 @keyframes pulse {

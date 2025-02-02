@@ -1,6 +1,6 @@
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 import './Header.css'
-import Logo from '../../images/icon/logo.png'
+import Logo from '../../images/icon/newLogo.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
 import { TfiMenu } from 'react-icons/tfi'
 import { RiCloseLargeFill } from 'react-icons/ri'
@@ -15,7 +15,7 @@ const Header = ({showBtn}) => {
     setBurgerShow(!burgerShow)
   }
 
-  return (  
+  return (
     <header>
       <nav
         style={{
@@ -27,15 +27,7 @@ const Header = ({showBtn}) => {
         className="navbar navbar-expand-md w-100 shadow-lg"
       >
         <div className="container">
-          <Link
-            className="navbar-brand"
-            to="introducao"
-            target="_self"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
+          <Link className="navbar-brand" to="/" target="_self">
             <img
               style={{ width: '50px' }}
               src={Logo}
@@ -49,8 +41,8 @@ const Header = ({showBtn}) => {
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
           >
-            <span onClick={burgerFunction} >
-              { burgerShow ? <TfiMenu /> :  <RiCloseLargeFill /> }                                          
+            <span onClick={burgerFunction}>
+              {burgerShow ? <TfiMenu /> : <RiCloseLargeFill />}
             </span>
           </button>
 
@@ -65,30 +57,10 @@ const Header = ({showBtn}) => {
                   style={{ color: 'green' }}
                   className="nav-link pointer-event"
                   aria-current="page"
-                  to="cardapio"
+                  to="/pagecardapio"
                   target="_self"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
                 >
                   Cardápio
-                </Link>
-              </li>
-              
-              <li className="nav-item">
-                <Link
-                  onClick={showBtn}
-                  style={{ color: 'green' }}
-                  className="nav-link"
-                  to="sobre"
-                  target="_self"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                >
-                  Sobre
                 </Link>
               </li>
               <li className="nav-item">
@@ -97,12 +69,8 @@ const Header = ({showBtn}) => {
                   style={{ color: 'green' }}
                   className="nav-link pointer-event"
                   aria-current="page"
-                  to="galeria"
+                  to="/pagegaleria"
                   target="_self"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
                 >
                   Galeria
                 </Link>
@@ -112,29 +80,21 @@ const Header = ({showBtn}) => {
                   onClick={showBtn}
                   style={{ color: 'green' }}
                   className="nav-link"
-                  to="catering"
+                  to="/pagemeconheca"
                   target="_self"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
                 >
-                  Catering
+                  Me Conheça
                 </Link>
-              </li>              
+              </li>
               <li className="nav-item">
                 <Link
                   onClick={showBtn}
                   style={{ color: 'green' }}
                   className="nav-link"
-                  to="contact"
+                  to="/pagecontato"
                   target="_self"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
                 >
-                  Contact
+                  Contato
                 </Link>
               </li>
             </ul>

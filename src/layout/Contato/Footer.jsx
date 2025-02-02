@@ -5,15 +5,15 @@ import SoulRebelRioLogo from '../../images/icon/soulRebelRioLogo.png'
 import { CiInstagram, CiLinkedin } from 'react-icons/ci'
 import CopyRight from './CopyRight'
 
-import ImgLogo from '../../images/icon/imgLogo.png'
+import ImgLogo from '../../images/icon/newLogo.png'
 
 const Footer = () => {
   const myStyle = {
-    color: '#fff',
+    color: '#fff',    
   }
 
   return (
-    <footer style={myStyle} id="contact">
+    <footer style={myStyle}>
       <section>
         <div className="container py-5 ">
           <div className="row">
@@ -32,7 +32,9 @@ const Footer = () => {
                   Solicite orçamentos pelo contatos abaixo:
                 </p>
 
-                <img src={ImgLogo} alt="imaLogo" className="w-25 mb-3" />
+                <Link to="/" target='_self' >
+                  <img src={ImgLogo} alt="imaLogo" className="w-25 mb-3" />
+                </Link>
 
                 <p>
                   Email:

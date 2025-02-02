@@ -5,17 +5,12 @@ import Beneficios from '../../images/icon/beneficios.png'
 import PratoComida from '../../images/icon/comida-e-restaurante.png'
 
 
-const ChefaDomicilio = ({showBtn}) => {
+const ChefaDomicilio = () => {
   return (
-    <div
-      className="px-3 py-5 container"
-      id="conheca"
-      onMouseOver={showBtn}
-      //onWheel={}
-    >
+    <div className="px-3 py-5 container" id="conheca">
       <div className="chefaDomicilio_container d-block text-center p-2 rounded-2">
-        <h1 className="pt-4"> Chef à Domicílio </h1>
-        <p className="p-3 text-center">
+        <h1 className="pt-4 animeOpacity"> Chef à Domicílio </h1>
+        <p className="p-3 text-center animeOpacity">
           Quer deixar a comida da semana preparada e organizada para{' '}
           <span>facilitar</span> o seu dia-a-dia e sem deixar de se alimentar
           bem? Ofereço o preparo de refeições <span>veganas</span> para você e

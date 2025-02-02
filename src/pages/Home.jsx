@@ -19,19 +19,19 @@ const Home = () => {
   const showBtn= ()=>{    
     setTimeout(() => {
       setBtnShow(true)
-    }, 500);    
+    }, 2000);    
   }
 
   const hideBtn= ()=>{
     setBtnShow(false)
   }
- 
+
 
   return (
-    <div style={{ minHeight: '75vh' }} className="position-relative"  >
+    <div className="position-relative" >
       <Header showBtn={showBtn} />
       <IntroComponent hideBtn={hideBtn} showBtn={showBtn} />
-      <ChefaDomicilio showBtn={showBtn}  /> 
+      <ChefaDomicilio /> 
       <NossosServicos />
       <Galeria />
       <Parallax />
@@ -42,8 +42,9 @@ const Home = () => {
           <Backtothetop />
         </span>
       ) : (
-        ''
-      )}
+        null
+      )
+    }
     </div>
   )
 }

@@ -1,15 +1,19 @@
 import './IntroComponent.css'
 import { Link } from 'react-scroll'
-import Rose from '../../images/icon/rose.png'
+import Rosy from '../../images/icon/rosy.png'
 import Klamt from '../../images/icon/klamt.png'
 import { RiArrowDownDoubleLine } from 'react-icons/ri'
 
 const IntroComponent = ({showBtn, hideBtn}) => {
  
   return (
-    <div className="introComponent" id="introducao" onMouseOver={hideBtn}>
+    <div
+      className="introComponent"      
+      onMouseOver={hideBtn}
+      onWheel={showBtn}
+    >
       <div className="pelicula">
-        <img src={Rose} alt="rose" className="d-block rose" />
+        <img src={Rosy} alt="rosy logo" className="d-block rosy" />
         <img src={Klamt} alt="klamt" className="d-block klamt" />
         <p>
           <span className="span1">Sua</span>
@@ -26,7 +30,7 @@ const IntroComponent = ({showBtn, hideBtn}) => {
           smooth={true}
           offset={50}
           duration={500}
-        >          
+        >
           <RiArrowDownDoubleLine />
         </Link>
       </div>

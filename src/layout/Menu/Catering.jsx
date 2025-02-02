@@ -1,38 +1,33 @@
 import Catering01 from '../../images/catering/comidaButecoCatering.png'
 import Catering02 from '../../images/catering/12.jpeg'
 import Catering03 from '../../images/catering/4.jpeg'
-import { Link } from 'react-scroll'
-
-
+import { Link } from 'react-router-dom'
 import './Cardapio.css'
 
 
 const Catering = () => {
   return (
-    <section className="container bg-transparent py-5" id="catering">
-      <h5
-        className="py-4"
-        style={{
-          color: 'var(--color3)',
-          fontFamily: 'var(--font-4)',
-          textShadow: '2px 2px 2px #222',
-        }}
-      >
-        Sujestão de Catering em parceria com
+    <section className="container bg-transparent py-5">
+      <h5 className="pb-4 ps-2">
+        <span
+          className="pt-5 mt-4 fw-bolder text-black-50"
+          style={{ fontFamily: 'var(--font-6)' }}
+        >
+          Sujestão de Catering em parceria com
+        </span>
         <Link
           style={{
             color: 'var(--color3)',
             fontFamily: 'var(--font-4)',
-            textShadow: '2px 2px 2px #222',
-            cursor:'pointer'
+            textShadow: '1px 1px 1px #222',
+            cursor: 'pointer',
           }}
-          to="https://soulrebelrio.com/veganrioexperience"
+          to="https://soulrebelrio.com/catering/"
           target="_blank"
           className="ps-2 text-decoration-none"
         >
           @soulrebel.rio
         </Link>
-        :
       </h5>
 
       {/* comida saudável */}
@@ -48,13 +43,13 @@ const Catering = () => {
           <div className="col-md-6">
             <div className="text-black-50 my-3 ">
               <h5
-                className="fst-italic text-center"
+                className="fst-italic text-center lh-lg"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
                 Comida saudável:
               </h5>
               <ul
-                className="fst-italic"
+                className="fst-italic lh-lg"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
                 <li>Rolinhos de legumes com folha de arroz com molho satay</li>
@@ -120,17 +115,17 @@ const Catering = () => {
           <div className="col-md-6">
             <div className="text-black-50 my-3 ">
               <h5
-                className="fst-italic text-center"
+                className="fst-italic text-center lh-lg"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
                 Comida de buteco e finger food:
               </h5>
               <ul
-                className="fst-italic"
+                className="fst-italic lh-lg"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
                 <li>Guacamole com chips </li>
-                <li>Coinha de shimeji</li>
+                <li>Coxinha de shimeji</li>
                 <li>Bolinho de feijoada com geléia de pimenta</li>
                 <li>
                   Batata recheada com queijo cremoso de castanha e espinafre
