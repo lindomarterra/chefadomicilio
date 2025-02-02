@@ -2,10 +2,10 @@
     background-color: #ffffffdc;        
 }
 
-.animation_container{
-    animation: letter linear 3s;
+.animeOne {
+    animation: letter linear 2s;
     animation-timeline: view();
-    animation-range: entry 0% cover 35%;
+    animation-range: entry 0% cover 30%;
 }
 
 @keyframes letter {
@@ -16,6 +16,39 @@
         margin-left: 0;
     }
 }
+
+.animeTwo {
+    animation: letter linear 2s;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+}
+
+@keyframes letter {
+    from{
+        margin-left: -2000px;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+
+
+.animeThree {
+    animation: letter linear 2s;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+@keyframes letter {
+    from{
+        margin-left: -2000px;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+
+
 
 .nossoServicos_container h2{
     font-size: 2em ;

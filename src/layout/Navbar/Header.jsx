@@ -75,21 +75,7 @@ const Header = ({showBtn}) => {
                   Cardápio
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  onClick={showBtn}
-                  style={{ color: 'green' }}
-                  className="nav-link"
-                  to="servicos"
-                  target="_self"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                >
-                  Serviços
-                </Link>
-              </li>
+              
               <li className="nav-item">
                 <Link
                   onClick={showBtn}
@@ -135,22 +121,7 @@ const Header = ({showBtn}) => {
                 >
                   Catering
                 </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  onClick={showBtn}
-                  style={{ color: 'green' }}
-                  className="nav-link"
-                  to="depoimentos"
-                  target="_self"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                >
-                  Depoimentos
-                </Link>
-              </li>
+              </li>              
               <li className="nav-item">
                 <Link
                   onClick={showBtn}
