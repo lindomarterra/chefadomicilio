@@ -1,5 +1,5 @@
 import './MeConheca.css'
-import chefRose from '../../images/rose/rosesemfundo.png'
+import chefRosy from '../../images/rose/rosesemfundo.png'
 
 const MeConheca = () => {
   return (
@@ -47,9 +47,9 @@ const MeConheca = () => {
           <div className="col-md-6">
             <div className="p-1">
               <img
-                src={chefRose}
+                src={chefRosy}
                 alt="foto Rose Klamt"
-                className="w-100 d-block"
+                className="w-100 d-block meConhecaRoseImg"
               />
             </div>
           </div>

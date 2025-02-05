@@ -5,8 +5,7 @@ import PageMeConheca from './pages/PageMeConheca'
 import PageCardapio from './pages/PageCardapio'
 import PageContato from './pages/PageContato'
 import PageGaleria from './pages/PageGaleria'
-
-import ConfirmedMessage from './pages/MessageConfirmed'
+import ConfirmedMessage from './pages/confirmedMessage'
 
 
 const App = () => {

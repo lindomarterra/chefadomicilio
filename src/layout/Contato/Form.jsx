@@ -1,11 +1,12 @@
 import { MdAlternateEmail } from 'react-icons/md'
 
 const Form = () => {
+
   return (
     <form
       className="text-center px-5 py-5 "
       style={{ backgroundColor: '#22222aaa' }}
-      action="https://formsubmit.co/terra.lindomar@gmail.com"
+      action="https://formsubmit.co/rosy.klamt@gmail.com"
       method="POST"
     >
       <MdAlternateEmail className="mb-3" style={{ fontSize: '60px' }} />
@@ -67,7 +68,8 @@ const Form = () => {
       <input
         type="hidden"
         name="_next"
-        value="https://lindomarterra.github.io/restaurante/index(confirmcontact).html"
+        value="http://localhost:5173/confirmedMessage"
+        // redirect provisorio usar useNavegati()
       />
 
       <button type="submit" className="btn btn-outline-light btnEnviar w-100">

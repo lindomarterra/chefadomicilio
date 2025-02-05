@@ -36,14 +36,23 @@ const Gallery = () => {
         {/** line one */}
         <div className="row g-0 lineAnime">
           <div className="col-md-6 col-lg-4  ">
-            <span>
+            <figure className="position-relative d-flex justify-content-center">
               <img
                 style={{ height: '250px' }}
                 src={Refeicao2}
                 alt="refeicao2"
                 className="d-block w-100 rounded-4 p-2"
               />
-            </span>
+              <figcaption
+                style={{
+                  fontFamily: 'var(--font-6)',
+                  backgroundColor: '#6cad63',
+                }}
+                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+              >
+                Refeições para semanas em marmitas congeladas
+              </figcaption>
+            </figure>
 
             <span>
               <img

@@ -1,56 +1,63 @@
 .lineAnime:nth-last-child(3){
-    animation: popUpRowOne linear 2s;    
+    animation: popUpRowOne linear .3s;    
 }
 
 @keyframes popUpRowOne {
     from{
         opacity: 0;
+        margin-left: -2000px;
     }
     to{
         opacity: 1;
+        margin-left: 0;
     }
 }
 
 .lineAnime:nth-last-child(2){
-    animation: popUpRowTwo linear 4s;
+    animation: popUpRowTwo linear .3s;
     animation-timeline: view();
-    animation-range: entry 0% cover 75%;
+    animation-range: entry 0% cover 25%;
 }
 
 @keyframes popUpRowTwo {
     from{
         opacity: 0;
+        margin-left: -2000px;
     }
     to{
         opacity: 1;
+        margin-left: 0;
     }
 }
 
-
 .lineAnime:nth-last-child(1){
-    animation: popUpRowThree linear 4s;
+    animation: popUpRowThree linear .3s;
     animation-timeline: view();
-    animation-range: entry 0% cover 75%;
+    animation-range: entry 0% cover 25%;
 }
 
 @keyframes popUpRowThree {
     from{
         opacity: 0;
+        margin-left: -2000px;
     }
     to{
         opacity: 1;
+        margin-left: 0;
     }
 }
 
 
-
-.container span img{ 
+.container figure img{ 
     transition: all 200ms linear; 
-    cursor: pointer;
 }
 
-.container span:hover img{
+.container figure:hover img{
     transform: scale(1.08);
+}
+
+.container figure:hover figcaption{
+    visibility: hidden;
 }
 
 
