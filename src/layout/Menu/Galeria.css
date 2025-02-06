@@ -56,8 +56,13 @@
     transform: scale(1.08);
 }
 
+.container figure figcaption{
+    transition: all linear .3s;
+    opacity: .6;
+}
+
 .container figure:hover figcaption{
-    visibility: hidden;
+    opacity: 1;
 }
 
 
