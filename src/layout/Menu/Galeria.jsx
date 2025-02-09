@@ -43,14 +43,10 @@ const Gallery = () => {
                 alt="refeicao2"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+              <figcaption                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Refeições para semanas em marmitas
               </figcaption>
             </figure>
             <figure className="position-relative d-flex justify-content-center">
@@ -60,14 +56,10 @@ const Gallery = () => {
                 alt="refeicao1"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+              <figcaption                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Feijoada de feijão vermelho com couve Kale
               </figcaption>
             </figure>
           </div>
@@ -80,13 +72,10 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Cure de grão de bico com arroz branco e espinafre refogado
               </figcaption>
             </figure>
           </div>
@@ -99,13 +88,10 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Lasanha de berinjela com molho de castanha
               </figcaption>
             </figure>
             <figure className="position-relative d-flex justify-content-center">
@@ -116,11 +102,8 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
                 Refeições para semanas em marmitas congeladas
               </figcaption>
@@ -139,13 +122,10 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Tofú mexido, toast com queijo cremoso e salada
               </figcaption>
             </figure>
           </div>
@@ -159,13 +139,10 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Pudding chia com frutas da estação e melado
               </figcaption>
             </figure>
 
@@ -177,11 +154,8 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
                 Refeições para semanas em marmitas congeladas
               </figcaption>
@@ -196,16 +170,13 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Foccaccia de vegetais
               </figcaption>
             </figure>
-            <span></span>
+            
           </div>
         </div>
 
@@ -220,11 +191,8 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
                 Refeições para semanas em marmitas congeladas
               </figcaption>
@@ -239,11 +207,8 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
                 Refeições para semanas em marmitas congeladas
               </figcaption>
@@ -256,11 +221,8 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
                 Refeições para semanas em marmitas congeladas
               </figcaption>
@@ -275,11 +237,8 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
                 Refeições para semanas em marmitas congeladas
               </figcaption>
@@ -293,11 +252,8 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
-                style={{
-                  fontFamily: 'var(--font-6)',
-                  backgroundColor: '#6cad63',
-                }}
-                className="position-absolute bottom-0 mb-3 z-3 text-white w-75 text-center fw-bolder rounded-1"
+                
+                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
                 Refeições para semanas em marmitas congeladas
               </figcaption>

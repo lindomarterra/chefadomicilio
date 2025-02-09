@@ -15,109 +15,66 @@
   background-color: #22222263;  
 }
 .rosy {
-  width: 300px;
+  width: 330px;
   position: absolute;
-  top: 18%;
+  top: 10%;
   animation: rosy 1s;
 }
 
 @keyframes rosy {
   from {
-    margin-left: -2000px;
+    margin-top: -2000px;
   }
   to {
-    margin-left: 0;
+    margin-top: 0;
   }
 }
 .klamt {
-  width: 300px;
+  width: 320px;
   position: absolute;
-  top: 32%;
-  animation: klamt 1s;
+  top: 11%;
+  animation: klamt 2s;
   
 }
 
 @keyframes klamt {
   from {
-    margin-right: -2000px;
+    margin-top: -2000px;
   }
   to {
-    margin-right: 0;
+    margin-top: 0;
   }
 }
 
 .pelicula p {
   position: absolute;
-  top: 67%;
+  top: 58%;
   font-family: var(--font-6);
-  color: cornsilk;
-  font-size: 2.2em;
-  font-weight: bolder;
+  color: aliceblue;
+  font-size: 2em;
+  font-weight: bolder;  
+  letter-spacing: 3px;  
   text-shadow: 2px 2px 2px #222;
+  animation: chef 3s linear;
 }
 
-.pelicula span {
-  margin: 2px;
-}
-
-.span1 {
-  animation: span1 3s;
-}
-@keyframes span1 {
-  from {
-    opacity: 0;
+@keyframes chef {
+  from{
+    margin-left: -2000px;
   }
-  to {
-    opacity: 1;
+  to{
+    margin-left: 0;
   }
 }
-
-.span2 {
-  animation: span2 6s;
-}
-@keyframes span2 {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.span3 {
-  animation: span3 9s;
-}
-@keyframes span3 {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.span4 {
-  animation: span4 12s;
-}
-@keyframes span4 {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 
 .pelicula .arrow-down {
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   border: none;
   text-decoration: none;
   cursor: pointer;
-  background-color: #6cad63;
+  background-color: rgb(110, 56, 56);
   color: #fff;
-  padding: 10px;
   font-family: var(--font-3);
   padding: 10px 20px ;
   border-radius: 8px;
@@ -135,5 +92,5 @@
 }
 
 .pelicula .arrow-down svg{
-  font-size: 3em;
+  font-size: 2.5em;
 }

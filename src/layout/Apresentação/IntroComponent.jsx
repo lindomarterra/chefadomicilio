@@ -3,36 +3,46 @@ import { Link } from 'react-scroll'
 import Rosy from '../../images/icon/rosy.png'
 import Klamt from '../../images/icon/klamt.png'
 import { RiArrowDownDoubleLine } from 'react-icons/ri'
+import { useState } from 'react'
 
 const IntroComponent = ({showBtn, hideBtn}) => {
  
-  return (
+  const [arrowButton, setArrowButton]= useState(false)
+
+  const popUpArrowButton = () => {
+    setTimeout(() => {
+      setArrowButton(true)
+    }, 4000)
+  }
+
+    return (
     <div
-      className="introComponent"      
+      className="introComponent"
       onMouseOver={hideBtn}
       onWheel={showBtn}
+      onLoad={popUpArrowButton}            
     >
       <div className="pelicula">
         <img src={Rosy} alt="rosy logo" className="d-block rosy" />
         <img src={Klamt} alt="klamt" className="d-block klamt" />
-        <p>
-          <span className="span1">Sua</span>
-          <span className="span2">Chef</span>
-          <span className="span3">à</span>
-          <span className="span4">Domicílio</span>
-        </p>
-        <Link
-          onClick={showBtn}
-          to="conheca"
-          className="arrow-down"
-          target="_self"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-        >
-          <RiArrowDownDoubleLine />
-        </Link>
+        <p>Sua chef à Domicílio</p>
+
+        {arrowButton ? (
+          <Link
+            onClick={showBtn}
+            to="conheca"
+            className="arrow-down"
+            target="_self"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            <RiArrowDownDoubleLine />
+          </Link>
+        ) : (
+          ''
+        )}
       </div>
     </div>
   )

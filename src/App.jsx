@@ -11,16 +11,16 @@ import ConfirmedMessage from './pages/confirmedMessage'
 const App = () => {
    
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/pagemeconheca" element={<PageMeConheca />} />
-        <Route path="/pagecardapio" element={<PageCardapio />} />
-        <Route path="/pagecontato" element={<PageContato />} />
-        <Route path="/pagegaleria" element={<PageGaleria />} />
-        <Route path="/confirmedMessage" element={<ConfirmedMessage />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/pagemeconheca" element={<PageMeConheca />} />
+          <Route path="/pagecardapio" element={<PageCardapio />} />
+          <Route path="/pagecontato" element={<PageContato />} />
+          <Route path="/pagegaleria" element={<PageGaleria />} />
+          <Route path="/confirmedMessage" element={<ConfirmedMessage />} />
+        </Routes>
+      </Router>
   )
 }
 

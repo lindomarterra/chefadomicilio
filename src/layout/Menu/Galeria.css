@@ -57,12 +57,15 @@
 }
 
 .container figure figcaption{
-    transition: all linear .3s;
-    opacity: .6;
+    font-family: var(--font-6);
+    background-color: #6cad63;
+    transition: all linear .4s;   
+    color: #fff;
 }
 
 .container figure:hover figcaption{
-    opacity: 1;
+    background-color: #fff;
+    color: #6cad63;
 }
 
 

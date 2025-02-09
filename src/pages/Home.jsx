@@ -10,11 +10,10 @@ import WhatsappButton from '../layout/Botões/WhatsappButton'
 
 import { useState } from 'react'
 
-
-
 const Home = () => {
 
   const [btnShow, setBtnShow]=useState(false)
+  
 
   const showBtn= ()=>{    
     setTimeout(() => {
@@ -25,26 +24,23 @@ const Home = () => {
   const hideBtn= ()=>{
     setBtnShow(false)
   }
-
-
+      
   return (
     <div className="position-relative" >
       <Header showBtn={showBtn} />
       <IntroComponent hideBtn={hideBtn} showBtn={showBtn} />
-      <ChefaDomicilio /> 
+      <ChefaDomicilio />
       <NossosServicos />
       <Galeria />
       <Parallax />
       <Contato />
-      <WhatsappButton />
+      <WhatsappButton /> 
+
       {btnShow ? (
         <span onClick={hideBtn}>
           <Backtothetop />
         </span>
-      ) : (
-        null
-      )
-    }
+      ) : null}
     </div>
   )
 }

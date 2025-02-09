@@ -32,9 +32,9 @@ const Footer = () => {
                   Solicite orçamentos pelo contatos abaixo:
                 </p>
 
-                <Link to="/" target='_self' >
-                  <img src={ImgLogo} alt="imaLogo" className="w-25 mb-3" />
-                </Link>
+                
+                  <img src={ImgLogo} alt="imgLogo" className="w-25 mb-3" />
+                
 
                 <p>
                   Email:
