@@ -65,13 +65,15 @@ const Form = () => {
           <span>Envie-nos uma mensagem!</span>
         </label>
       </div>
+      
       <input
         type="hidden"
         name="_next"
-        value="http://https://terra-six-zeta.vercel.app/ConfirmedMessage"
+        value="https://terra-six-zeta.vercel.app/ConfirmedMessage"
         // redirect provisorio usar useNavegati()
       />
       <input type="hidden" name="_captcha" value="false"></input>
+      
       <button type="submit" className="btn btn-outline-light btnEnviar w-100">
         <span className="fw-bold">Enviar</span>
       </button>
