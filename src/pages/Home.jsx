@@ -24,17 +24,19 @@ const Home = () => {
   const hideBtn= ()=>{
     setBtnShow(false)
   }
-      
+  
+  
+
   return (
-    <div className="position-relative" >
+    <div className="position-relative">
       <Header showBtn={showBtn} />
       <IntroComponent hideBtn={hideBtn} showBtn={showBtn} />
-      <ChefaDomicilio />
+      <ChefaDomicilio showBtn={showBtn} />
       <NossosServicos />
       <Galeria />
       <Parallax />
       <Contato />
-      <WhatsappButton /> 
+      <WhatsappButton />
 
       {btnShow ? (
         <span onClick={hideBtn}>

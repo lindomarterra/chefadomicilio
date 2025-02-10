@@ -12,14 +12,13 @@ const IntroComponent = ({showBtn, hideBtn}) => {
   const popUpArrowButton = () => {
     setTimeout(() => {
       setArrowButton(true)
-    }, 4000)
+    }, 3000)
   }
 
     return (
     <div
       className="introComponent"
-      onMouseOver={hideBtn}
-      onWheel={showBtn}
+      onMouseEnter={hideBtn}            
       onLoad={popUpArrowButton}            
     >
       <div className="pelicula">

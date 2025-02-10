@@ -5,9 +5,9 @@ import Beneficios from '../../images/icon/beneficios.png'
 import PratoComida from '../../images/icon/comida-e-restaurante.png'
 
 
-const ChefaDomicilio = () => {
+const ChefaDomicilio = ({showBtn}) => {
   return (
-    <div className="px-3 py-5 container" id="conheca"  >
+    <div className="px-3 py-5 container" id="conheca" onMouseEnter={showBtn} >
       <div className="chefaDomicilio_container d-block text-center p-2 rounded-2">
         <h1 className="pt-4 animeOpacity"> Chef à Domicílio </h1>
         <p className="p-3 text-center animeOpacity">
