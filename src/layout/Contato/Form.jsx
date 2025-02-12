@@ -6,9 +6,22 @@ const Form = () => {
     <form
       className="text-center px-5 py-5 "
       style={{ backgroundColor: '#22222aaa' }}
-      action="https://formsubmit.co/rosy.klamt@gmail.com"
+      action="https://api.staticforms.xyz/submit"
       method="POST"
     >
+      <input
+        type="hidden"
+        name="accessKey"
+        value="285d22b1-8224-4e5b-a360-a577a3a60785" //chave de acesso vindo do email
+      />
+      <input
+        type="hidden"
+        name="redirectTo"
+        value="http://localhost:5173/confirmedMessage"
+      />
+
+      <input type="hidden" name="_captcha" value="false"></input>
+
       <MdAlternateEmail className="mb-3" style={{ fontSize: '60px' }} />
 
       <div className="form-floating mb-3">
@@ -20,7 +33,7 @@ const Form = () => {
             color: '#fff',
           }}
           id="name"
-          name="nome"
+          name="name"
           placeholder=""
           required
         />
@@ -49,7 +62,7 @@ const Form = () => {
 
       <div className="form-floating mb-3">
         <textarea
-          name="mensagem"
+          name="message" //inportante colocar em ingles para o api dar certo
           id="mensagem"
           required
           className="form-control pt-5"
@@ -65,15 +78,7 @@ const Form = () => {
           <span>Envie-nos uma mensagem!</span>
         </label>
       </div>
-      
-      <input
-        type="hidden"
-        name="_next"
-        value="https://terra-six-zeta.vercel.app/ConfirmedMessage"
-        // redirect provisorio usar useNavegati()
-      />
-      <input type="hidden" name="_captcha" value="false"></input>
-      
+
       <button type="submit" className="btn btn-outline-light btnEnviar w-100">
         <span className="fw-bold">Enviar</span>
       </button>

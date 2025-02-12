@@ -3,17 +3,17 @@ import './Galeria.css'
 import Refeicao1 from '../../images/refeicao/refeicao1.png'
 import Refeicao2 from '../../images/refeicao/refeicao2.png'
 import Refeicao3 from '../../images/refeicao/refeicao3.png'
-import Refeicao4 from '../../images/refeicao/refeicao4.png'
+import Moqueca from '../../images/refeicao/moqueca.png'
 import Refeicao5 from '../../images/refeicao/refeicao5.png'
 
 import Brunch1 from '../../images/brunch/brunch1.png'
-import Brunch2 from '../../images/brunch/brunch2.png'
+import Tempeh from '../../images/brunch/tempeh.png'
 import Brunch3 from '../../images/brunch/brunch3.png'
 import Brunch4 from '../../images/brunch/brunch4.png'
 
-import Petisco1 from '../../images/petiscos/petisco1.png'
+import Burger4 from '../../images/refeicao/burger4.png'
 import Petisco2 from '../../images/petiscos/petisco2.png'
-import Petisco3 from '../../images/petiscos/petisco3.png'
+import Homus1 from '../../images/refeicao/homus1.png'
 import Petisco7 from '../../images/petiscos/petisco7.png'
 import Petisco6 from '../../images/petiscos/petisco5.png'
 
@@ -97,15 +97,15 @@ const Gallery = () => {
             <figure className="position-relative d-flex justify-content-center">
               <img
                 style={{ height: '250px' }}
-                src={Refeicao4}
-                alt="refeicao4"
+                src={Moqueca}
+                alt="moqueca"
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
                 
                 className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Moqueca de banana da terra
               </figcaption>
             </figure>
           </div>
@@ -149,15 +149,15 @@ const Gallery = () => {
             <figure className="position-relative d-flex justify-content-center">
               <img
                 style={{ height: '250px' }}
-                src={Brunch2}
-                alt="brunch2"
+                src={Tempeh}
+                alt="tempeh"
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
                 
                 className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Tempeh marinado
               </figcaption>
             </figure>
           </div>
@@ -186,15 +186,15 @@ const Gallery = () => {
             <figure className="position-relative d-flex justify-content-center">
               <img
                 style={{ height: '500px' }}
-                src={Petisco1}
-                alt="petisco1"
+                src={Burger4}
+                alt="burger4"
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
                 
                 className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Hamburger vegetal
               </figcaption>
             </figure>
           </div>
@@ -210,21 +210,21 @@ const Gallery = () => {
                 
                 className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Bolinho de feijoada
               </figcaption>
             </figure>
             <figure className="position-relative d-flex justify-content-center">
               <img
                 style={{ height: '250px' }}
-                src={Petisco3}
-                alt="petisco3"
+                src={Homus1}
+                alt="homus"
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption
                 
                 className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Homus de grão de bico
               </figcaption>
             </figure>
           </div>
@@ -240,7 +240,7 @@ const Gallery = () => {
                 
                 className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
               >
-                Refeições para semanas em marmitas congeladas
+                Espetinhos de legumes grelhado
               </figcaption>
             </figure>
 
@@ -254,8 +254,8 @@ const Gallery = () => {
               <figcaption
                 
                 className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
-                Refeições para semanas em marmitas congeladas
+              >                
+                Toast com requeijão vegano e cogumelos
               </figcaption>
             </figure>
 
