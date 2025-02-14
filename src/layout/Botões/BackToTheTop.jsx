@@ -11,9 +11,9 @@ const BackToTheTop = () => {
     <button
       onClick={backtothetop}
       title="voltar ao topo"    
-      className="bg-dark-subtle position-fixed start-0 bottom-0 py-1 px-2 border-0 rounded-end-2 z-3"       
+      className="bg-dark-subtle position-fixed start-0 bottom-0 border-0 z-3 rounded-5 m-2 p-1 "       
   >
-      <IoIosArrowUp />
+      <IoIosArrowUp className="m-2" />
     </button>
   )
 }
