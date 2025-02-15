@@ -17,7 +17,7 @@ const Form = () => {
       <input
         type="hidden"
         name="redirectTo"
-        value="http://localhost:5173/confirmedMessage"
+        value="https://terra-six-zeta.vercel.app/confirmedMessage"
       />
 
       <input type="hidden" name="_captcha" value="false"></input>
