@@ -23,11 +23,11 @@ const Form = () => {
         value="285d22b1-8224-4e5b-a360-a577a3a60785" //chave de acesso vindo do email
       />
 
-      {/** <input
+      <input
         type="hidden"
         name="redirectTo"
         value="https://terra-six-zeta.vercel.app/confirmedMessage"
-      /> */}
+      /> 
 
       <input type="hidden" name="_captcha" value="false"></input>
 
