@@ -21,11 +21,12 @@ const Form = () => {
         name="accessKey"
         value="285d22b1-8224-4e5b-a360-a577a3a60785" //chave de acesso vindo do email
       />
-      <input
+
+      {/** <input
         type="hidden"
         name="redirectTo"
         value="https://terra-six-zeta.vercel.app/confirmedMessage"
-      />
+      /> */}
 
       <input type="hidden" name="_captcha" value="false"></input>
 
@@ -86,7 +87,11 @@ const Form = () => {
         </label>
       </div>
 
-      <button onSubmit={redirectConfirmedMessage} type="submit" className="btn btn-outline-light btnEnviar w-100">
+      <button
+        onSubmit={redirectConfirmedMessage}
+        type="submit"
+        className="btn btn-outline-light btnEnviar w-100"
+      >
         <span className="fw-bold">Enviar</span>
       </button>
     </form>
