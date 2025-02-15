@@ -1,6 +1,13 @@
 import { MdAlternateEmail } from 'react-icons/md'
+import { useNavigate } from 'react-router-dom'
 
 const Form = () => {
+
+  let navigate= useNavigate()
+
+  const redirectConfirmedMessage= ()=>{
+    navigate('https://terra-six-zeta.vercel.app/confirmedMessage')
+  }
 
   return (
     <form
@@ -79,7 +86,7 @@ const Form = () => {
         </label>
       </div>
 
-      <button type="submit" className="btn btn-outline-light btnEnviar w-100">
+      <button onSubmit={redirectConfirmedMessage} type="submit" className="btn btn-outline-light btnEnviar w-100">
         <span className="fw-bold">Enviar</span>
       </button>
     </form>
