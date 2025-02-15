@@ -11,6 +11,7 @@ const Form = () => {
 
   return (
     <form
+      onSubmit={redirectConfirmedMessage}
       className="text-center px-5 py-5 "
       style={{ backgroundColor: '#22222aaa' }}
       action="https://api.staticforms.xyz/submit"
@@ -87,8 +88,7 @@ const Form = () => {
         </label>
       </div>
 
-      <button
-        onSubmit={redirectConfirmedMessage}
+      <button        
         type="submit"
         className="btn btn-outline-light btnEnviar w-100"
       >
