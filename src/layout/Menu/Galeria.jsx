@@ -32,7 +32,7 @@ const Gallery = () => {
         Galeria Fotos
       </h5>
 
-      <div className="container">
+      <div className="container ">
         {/** line one */}
         <div className="row g-0">
           <div className="col-md-6 col-lg-4  ">
@@ -43,9 +43,7 @@ const Gallery = () => {
                 alt="refeicao2"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Refeições para semanas em marmitas
               </figcaption>
             </figure>
@@ -56,9 +54,7 @@ const Gallery = () => {
                 alt="refeicao1"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Feijoada de feijão vermelho com couve Kale
               </figcaption>
             </figure>
@@ -71,10 +67,7 @@ const Gallery = () => {
                 alt="refeicao3"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Cure de grão de bico com arroz branco e espinafre refogado
               </figcaption>
             </figure>
@@ -87,10 +80,7 @@ const Gallery = () => {
                 alt="refeicao5"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Lasanha de berinjela com molho de castanha
               </figcaption>
             </figure>
@@ -101,17 +91,18 @@ const Gallery = () => {
                 alt="moqueca"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Moqueca de banana da terra
               </figcaption>
             </figure>
           </div>
         </div>
+<<<<<<< HEAD
 
         {/** line two  */}
+=======
+        {/** line two  */} lineAnime
+>>>>>>> 7e3547a (delete animeLine)
         <div className="row g-0">
           <div className="col-md-6 col-lg-4  ">
             <figure className="position-relative d-flex justify-content-center">
@@ -121,10 +112,7 @@ const Gallery = () => {
                 alt="brunch3"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Tofú mexido, toast com queijo cremoso e salada
               </figcaption>
             </figure>
@@ -138,10 +126,7 @@ const Gallery = () => {
                 alt="brunch1"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Pudding chia com frutas da estação e melado
               </figcaption>
             </figure>
@@ -153,10 +138,7 @@ const Gallery = () => {
                 alt="tempeh"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Tempeh marinado
               </figcaption>
             </figure>
@@ -169,17 +151,12 @@ const Gallery = () => {
                 alt="brunch4"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Foccaccia de vegetais
               </figcaption>
             </figure>
-            
           </div>
         </div>
-
         {/** line three */}
         <div className="row g-0">
           <div className="col-md-6 col-lg-4  ">
@@ -190,10 +167,7 @@ const Gallery = () => {
                 alt="burger4"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Hamburger vegetal
               </figcaption>
             </figure>
@@ -206,10 +180,7 @@ const Gallery = () => {
                 alt="petisco2"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Bolinho de feijoada
               </figcaption>
             </figure>
@@ -220,10 +191,7 @@ const Gallery = () => {
                 alt="homus"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Homus de grão de bico
               </figcaption>
             </figure>
@@ -236,29 +204,22 @@ const Gallery = () => {
                 alt="petisco6"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Espetinhos de legumes grelhado
               </figcaption>
             </figure>
 
-            <figure className="position-relative d-flex justify-content-center m-0">              
+            <figure className="position-relative d-flex justify-content-center m-0">
               <img
                 style={{ height: '200px' }}
                 src={Petisco7}
                 alt="petisco7"
                 className="d-block w-100 rounded-4 p-2"
               />
-              <figcaption
-                
-                className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1"
-              >                
+              <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
                 Toast com requeijão vegano e cogumelos
               </figcaption>
             </figure>
-
           </div>
         </div>
       </div>
