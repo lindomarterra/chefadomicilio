@@ -34,7 +34,7 @@ const Gallery = () => {
 
       <div className="container">
         {/** line one */}
-        <div className="row g-0 lineAnime">
+        <div className="row g-0">
           <div className="col-md-6 col-lg-4  ">
             <figure className="position-relative d-flex justify-content-center m-0">
               <img
@@ -112,7 +112,7 @@ const Gallery = () => {
         </div>
 
         {/** line two  */}
-        <div className="row g-0 lineAnime">
+        <div className="row g-0">
           <div className="col-md-6 col-lg-4  ">
             <figure className="position-relative d-flex justify-content-center">
               <img
@@ -181,7 +181,7 @@ const Gallery = () => {
         </div>
 
         {/** line three */}
-        <div className="row g-0 lineAnime">
+        <div className="row g-0">
           <div className="col-md-6 col-lg-4  ">
             <figure className="position-relative d-flex justify-content-center">
               <img
