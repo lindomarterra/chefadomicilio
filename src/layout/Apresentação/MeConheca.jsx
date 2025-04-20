@@ -1,5 +1,5 @@
 import './MeConheca.css'
-import chefRosy from '../../images/rose/rosesemfundo.png'
+import chefRosy from '../../images/rose/rosy.jpeg'
 
 const MeConheca = () => {
   return (
@@ -7,42 +7,41 @@ const MeConheca = () => {
       <div className="pt-5 container">
         <div className="row">
           <div className="col-md-6">
-            <h4 className="py-3 titleMeConheca">Me Conheça:</h4>
-            <p>Olá! Eu sou a Rosy!</p>
+            <h4 className="py-3 titleMeConheca"> Get to Know Me:</h4>
+            <p> Hello! I'm Rosy! </p>
             <p>
-              Amo cozinhar, e acredito que sim cozinhar é um forma de amar (e
-              todos os outros cliches), trabalho com comida já a mais de 9 anos,
-              em restaurantes, bares, feiras, festivais e pousadas.
+              I love cooking, and I believe that cooking is a form of love (and
+              all the other cliches), I have been working with food for over 9
+              years, in restaurants, bars, fairs, festivals and inns.
             </p>
             <p>
-              Me formei em Gastronomia no Instituto IGA em 2013, desde então
-              tenho me dedicado a criar experiências culinárias inesquecíveis e
-              cheias de afeto.
+              I graduated in Gastronomy from the IGA Institute in 2013, and
+              since then I have dedicated myself to creating unforgettable
+              culinary experiences full of affection.
             </p>
             <p>
-              Em 2015, eu adotei o estilo de vida vegano, o que me inspirou a me
-              especializar em Cozinha Plant-Based. Hoje, sou uma defensora da
-              culinária vegana e me esforço para criar pratos deliciosos e
-              saudáveis que inspirem e eduquem os meus clientes sobre as
-              vantagens de uma dieta baseada em plantas.
+              In 2015, I embraced the vegan lifestyle, which inspired me to
+              specialize in Plant-Based Cooking. Today, I am an advocate for
+              vegan cuisine and strive to create delicious, healthy dishes that
+              inspire and educate my clients about the benefits of a plant-based
+              diet.
             </p>
             <p>
-              Com grande paixão pela comida e pela sustentabilidade, estou
-              sempre buscando novas maneiras de inovar e melhorar minhas
-              habilidades culinárias.
+              With a great passion for food and sustainability, I am always
+              looking for new ways to innovate and improve my culinary skills.
             </p>
             <p>
-              Se você está procurando por uma experiência gastronômica única e
-              autêntica, ou ainda facilitar seu dia-a-dia, organizando e
-              deixando tudo que vai comer na semana preparado e selecionado,
-              para otimizar suas refeições, estou aqui para criar momentos
-              inesquecíveis para você e seus entes queridos.
+              If you are looking for a unique and authentic gastronomic
+              experience, or even to make your day-to-day life easier,
+              organizing and leaving everything you are going to eat during the
+              week prepared and selected, to optimize your meals, I am here to
+              create unforgettable moments for you and your loved ones.
             </p>
             <p>
-              Me escreva pra gente trocar uma ideia e encontrar a melhor forma
-              para comer bem e melhor.
+              Write to me so we can exchange ideas and find the best way to eat
+              well and better.
             </p>
-            <p>Espero ansiosamente para cozinhar para você!</p>
+            <p> I look forward to cooking for you! </p>
           </div>
           <div className="col-md-6">
             <div className="p-1">

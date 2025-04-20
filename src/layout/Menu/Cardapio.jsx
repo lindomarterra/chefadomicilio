@@ -10,13 +10,13 @@ const Cardapio = () => {
     <section className="container bg-transparent py-5" id="cardapio">
       <h5
         className="pt-5 mt-4 pb-2 ps-2 fw-bolder text-black-50"
-        style={{ fontFamily: 'var(--font-6)',}}
+        style={{ fontFamily: 'var(--font-6)' }}
       >
-        Sujestão de Cardápio para você:
+        Menu suggestion for you:
       </h5>
 
       {/* brunches e cafe da manha */}
-      <div className="itemCardapio bg-light" >
+      <div className="itemCardapio bg-light">
         <div className="row">
           <div className="col-md-6">
             <img
@@ -31,7 +31,7 @@ const Cardapio = () => {
                 className="fst-italic text-center"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                Brunches e cafés da manhã:
+                Breakfasts and Brunches:
               </h5>
               <ul
                 className="fst-italic"
@@ -46,8 +46,7 @@ const Cardapio = () => {
                   />
                 </li>
                 <li>
-                  {' '}
-                  Pão de polvilho{' '}
+                  Tapioca flour bread
                   <img
                     src={GlutenFree}
                     alt="gluten-free"
@@ -55,8 +54,7 @@ const Cardapio = () => {
                   />
                 </li>
                 <li>
-                  {' '}
-                  Homus{' '}
+                  Hommus
                   <img
                     src={GlutenFree}
                     alt="gluten-free"
@@ -65,7 +63,7 @@ const Cardapio = () => {
                 </li>
                 <li>
                   {' '}
-                  Caponata de berinjela{' '}
+                  Eggplant Caponata
                   <img
                     src={GlutenFree}
                     alt="gluten-free"
@@ -73,8 +71,7 @@ const Cardapio = () => {
                   />{' '}
                 </li>
                 <li>
-                  {' '}
-                  Pastinhas de leguminosas{' '}
+                  Pastinhas de leguminosas
                   <img
                     src={GlutenFree}
                     alt="gluten-free"
@@ -82,8 +79,7 @@ const Cardapio = () => {
                   />{' '}
                 </li>
                 <li>
-                  {' '}
-                  Grãomelete{' '}
+                  Grãomelete
                   <img
                     src={GlutenFree}
                     alt="gluten-free"
@@ -91,18 +87,17 @@ const Cardapio = () => {
                   />{' '}
                 </li>
                 <li>
-                  Pudding chia{' '}
+                  Chia pudding
                   <img
                     src={GlutenFree}
                     alt="gluten-free"
                     style={{ width: '20px', paddingLeft: '5px' }}
                   />{' '}
                 </li>
-                <li>Panquecas </li>
-                <li>Torta salgada de legumes </li>
+                <li>Pancakes </li>
+                <li>Salty vegetable pie </li>
                 <li>
-                  {' '}
-                  Leites vegetais e sucos naturais{' '}
+                  Vegetable milks and natural juices
                   <img
                     src={GlutenFree}
                     alt="gluten-free"
@@ -110,7 +105,7 @@ const Cardapio = () => {
                   />{' '}
                 </li>
                 <li>
-                  Iaminho com granola{' '}
+                  yam cream with granola
                   <img
                     src={GlutenFree}
                     alt="gluten-free"
@@ -131,7 +126,7 @@ const Cardapio = () => {
                 className="fst-italic text-center"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                Refeições:
+                Meals:
               </h5>
               <ul
                 className="fst-italic"
@@ -141,10 +136,10 @@ const Cardapio = () => {
                 <li> Mjadra</li>
                 <li>Moqueca</li>
                 <li>Feijoada</li>
-                <li>Massas</li>
+                <li>Pastas</li>
                 <li>Burgers</li>
-                <li>Lasanhas</li>
-                <li>Pratos típicos reginonais </li>
+                <li>Lasagnas</li>
+                <li> Typical regional dishes </li>
                 <li className="list-unstyled pt-2  ">
                   <img
                     src={GlutenFree}
@@ -155,7 +150,7 @@ const Cardapio = () => {
                       paddingBottom: '2px',
                     }}
                   />
-                  todos os pratos podem ser adaptados para glúten-free{' '}
+                  all dishes can be adapted for gluten-free
                 </li>
               </ul>
             </div>
@@ -170,8 +165,7 @@ const Cardapio = () => {
         </div>
       </div>
       {/* lanches e sobremesas */}
-      <div
-        className="itemCardapio bg-light mt-3 mt-md-0" >
+      <div className="itemCardapio bg-light mt-3 mt-md-0">
         <div className="row">
           <div className="col-md-6 ">
             <img
@@ -186,20 +180,20 @@ const Cardapio = () => {
                 className="fst-italic text-center"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                Lanches, sobremesas:
+                Snacks and desserts:
               </h5>
               <ul
                 className="fst-italic"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                <li> Guacamole com tortilhas </li>
+                <li> Guacamole with tortillas </li>
                 <li>Focaccia</li>
                 <li>Quiches</li>
-                <li>Espeinhos de cogumelos com legumes</li>
-                <li>Bolos</li>
+                <li>Mushroom and vegetable skewers</li>
+                <li>Cakes</li>
                 <li>Pavês</li>
                 <li>Power balls</li>
-                <li>Creme de abacate com cacau e granola</li>
+                <li> Avocado cream with cocoa and granola </li>
                 <li className="list-unstyled pt-2  ">
                   <img
                     src={GlutenFree}
@@ -210,7 +204,9 @@ const Cardapio = () => {
                       paddingBottom: '2px',
                     }}
                   />
-                  todos os pratos podem ser adaptados para glúten-free{' '}
+                  
+                  all dishes can be
+                  adapted for gluten-free
                 </li>
               </ul>
             </div>

@@ -29,57 +29,20 @@
     margin-top: 0;
   }
 }
-.klamt {
-  width: 320px;
-  position: absolute;
-  top: 11%;
-  animation: klamt 2s;
-  
-}
-
-@keyframes klamt {
-  from {
-    margin-top: -2000px;
-  }
-  to {
-    margin-top: 0;
-  }
-}
-
-.pelicula p {
-  position: absolute;
-  top: 58%;
-  font-family: var(--font-6);
-  color: aliceblue;
-  font-size: 2em;
-  font-weight: bolder;  
-  letter-spacing: 3px;  
-  text-shadow: 2px 2px 2px #222;
-  animation: chef 3s linear;
-}
-
-@keyframes chef {
-  from{
-    margin-left: -2000px;
-  }
-  to{
-    margin-left: 0;
-  }
-}
 
 .pelicula .arrow-down {
   position: absolute;
-  bottom: 15%;
+  bottom: 25%;
   border: none;
   text-decoration: none;
   cursor: pointer;
-  background-color: #3a2c2c;
+  background-color: rgb(100, 182, 100) ;
   color: #fff;
   font-family: var(--font-3);
   padding: 10px 20px ;
   border-radius: 8px;
   text-shadow: 2px 2px 4px #222;  
-  animation: pulse 4s infinite;  
+  animation: pulse 3s infinite;  
 }
 
 @keyframes pulse {

@@ -27,7 +27,7 @@ const Form = () => {
         type="hidden"
         name="redirectTo"
         value="https://terra-six-zeta.vercel.app/confirmedMessage"
-      /> 
+      />
 
       <input type="hidden" name="_captcha" value="false"></input>
 
@@ -47,7 +47,7 @@ const Form = () => {
           required
         />
         <label htmlFor="name">
-          <span>Nome:</span>
+          <span>Name:</span>
         </label>
       </div>
 
@@ -84,7 +84,7 @@ const Form = () => {
           }}
         ></textarea>
         <label htmlFor="mensagem">
-          <span>Envie-nos uma mensagem!</span>
+          <span> Send us a message!</span>
         </label>
       </div>
 
@@ -95,8 +95,12 @@ const Form = () => {
       >
 =======
       <button type="submit" className="btn btn-outline-light btnEnviar w-100">
+<<<<<<< HEAD
 >>>>>>> 2345f9e (editado novo)
         <span className="fw-bold">Enviar</span>
+=======
+        <span className="fw-bold">Submit</span>
+>>>>>>> ecebbe0 (commit 20 april 2025)
       </button>
     </form>
   )

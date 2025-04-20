@@ -13,7 +13,7 @@ const Catering = () => {
           className="pt-5 mt-4 fw-bolder text-black-50"
           style={{ fontFamily: 'var(--font-6)' }}
         >
-          Sujestão de Catering em parceria com
+          Catering suggestion in partnership with
         </span>
         <Link
           style={{
@@ -46,20 +46,22 @@ const Catering = () => {
                 className="fst-italic text-center lh-lg"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                Comida saudável:
+                Healthy food:
               </h5>
               <ul
                 className="fst-italic lh-lg"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                <li>Rolinhos de legumes com folha de arroz com molho satay</li>
-                <li>Bhuda bowl (arroz 7 grãos, tempeh, edamame...)</li>
-                <li> Arroz negro com brócoli, tempeh e couve-flor grelhados</li>
+                <li>Vegetable rolls in rice paper with satay sauce</li>
+                <li>Buddha bowl (7 grain rice, tempeh, edamame...)</li>
                 <li>
-                  Tofu ao molho de laranja com salada de ervilha torta e arroz
-                  oriental
+                  {' '}
+                  Black rice with grilled broccoli, tempeh and cauliflower
                 </li>
-                <li>cheese cake crudivora com calda de frutas da estação</li>
+                <li>
+                  Tofu in orange sauce with crooked pea salad and rice oriental
+                </li>
+                <li>raw cheesecake with seasonal fruit sauce</li>
               </ul>
             </div>
           </div>
@@ -74,22 +76,22 @@ const Catering = () => {
                 className="fst-italic text-center"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                Comidas regionais brasileiras:
+                Brazilian regional foods:
               </h5>
               <ul
                 className="fst-italic"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                <li>Palmito grelhado com molho pesto </li>
-                <li>Escondidinho </li>
-                <li>Moqueca</li>
+                <li> Grilled hearts of palm with pesto sauce </li>
+                <li> hidden vegetables with mushrooms </li>
+                <li> Moqueca</li>
                 <li>Feijoada</li>
-                <li>Banana da terra grelhada</li>
-                <li>Vinagrete de feijão fradinho</li>
+                <li> Grilled plantain </li>
+                <li> Black-eyed pea vinaigrette </li>
                 <li>Acarajé</li>
                 <li>Carurú</li>
                 <li>Vatapá</li>
-                <li>Beijú com calda de baunilha</li>
+                <li> Beijú with vanilla syrup </li>
               </ul>
             </div>
           </div>
@@ -118,26 +120,23 @@ const Catering = () => {
                 className="fst-italic text-center lh-lg"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                Comida de buteco e finger food:
+                Pub food:
               </h5>
               <ul
                 className="fst-italic lh-lg"
                 style={{ fontFamily: 'var(--font-6)' }}
               >
-                <li>Guacamole com chips </li>
-                <li>Coxinha de shimeji</li>
-                <li>Bolinho de feijoada com geléia de pimenta</li>
+                <li> Guacamole with chips </li>
+                <li> Shimeji coxinha </li>
+                <li> Feijoada balls with pepper jelly </li>
+                <li>Potato stuffed with creamy chestnut cheese and spinach</li>
+                <li> Pastries with vinaigrette </li>
+                <li> Marinated and grilled tempeh cubes </li>
+                <li> Mushroom skewers with vegetables and farofa </li>
                 <li>
-                  Batata recheada com queijo cremoso de castanha e espinafre
+                  Toasts with creamy chestnut cheese and caramelized onion
                 </li>
-                <li>Pasteis com vinagrete</li>
-                <li>Cubos de tempeh marinados e grelhados</li>
-                <li>Espetinhos de cogumelos com legumes e farofa </li>
-                <li>
-                  {' '}
-                  Barquetes com queijo cremoso de castanha e cebola caramelizada{' '}
-                </li>
-                <li>Trufa de chocolate com laranja</li>
+                <li> Chocolate truffle with orange</li>
               </ul>
             </div>
           </div>

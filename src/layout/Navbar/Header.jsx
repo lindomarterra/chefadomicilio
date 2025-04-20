@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Header.css'
-import Logo from '../../images/icon/newLogo.png'
+import Logo from '../../images/icon/logo.png'
 import { FaInstagram, FaLinkedin } from "react-icons/fa"
 import { TfiMenu } from 'react-icons/tfi'
 import { RiCloseLargeFill } from 'react-icons/ri'
@@ -31,7 +31,7 @@ const Header = ({showBtn}) => {
             <img
               style={{ width: '50px' }}
               src={Logo}
-              alt="roseklamtchefadomicilio"
+              alt="rosyklamtPersonalChef"
               className="pb-2"
             />
           </Link>
@@ -60,7 +60,7 @@ const Header = ({showBtn}) => {
                   to="/pagecardapio"
                   target="_self"
                 >
-                  Cardápio
+                  Menu
                 </Link>
               </li>
               <li className="nav-item">
@@ -72,7 +72,7 @@ const Header = ({showBtn}) => {
                   to="/pagegaleria"
                   target="_self"
                 >
-                  Galeria
+                  Galery
                 </Link>
               </li>
               <li className="nav-item">
@@ -83,7 +83,7 @@ const Header = ({showBtn}) => {
                   to="/pagemeconheca"
                   target="_self"
                 >
-                  Me Conheça
+                  Get to Know Me:
                 </Link>
               </li>
               <li className="nav-item">
@@ -94,7 +94,7 @@ const Header = ({showBtn}) => {
                   to="/pagecontato"
                   target="_self"
                 >
-                  Contato
+                  Contact
                 </Link>
               </li>
             </ul>

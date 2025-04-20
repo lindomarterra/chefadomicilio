@@ -3,12 +3,14 @@ import Galeria from '../layout/Menu/Galeria'
 import IntroComponent from '../layout/Apresentação/IntroComponent'
 import ChefaDomicilio from '../layout/Apresentação/ChefaDomicilio'
 import NossosServicos from '../layout/Apresentação/NossosServicos'
+import MeConheca from '../layout/Apresentação/MeConheca'
 import Contato from '../layout/Contato/Footer'
 import Parallax from '../layout/Menu/Parallax'
 import Backtothetop from '../layout/Botões/BackToTheTop'
 import WhatsappButton from '../layout/Botões/WhatsappButton'
 
 import { useState } from 'react'
+
 
 const Home = () => {
 
@@ -35,6 +37,7 @@ const Home = () => {
       <NossosServicos />
       <Galeria />
       <Parallax />
+      <MeConheca/>
       <Contato />
       <WhatsappButton />
 

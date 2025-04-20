@@ -29,7 +29,7 @@ const Gallery = () => {
           textShadow: '2px 2px 2px #22222248',
         }}
       >
-        Galeria Fotos
+        Gallery
       </h5>
 
       <div className="container ">
@@ -44,7 +44,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Refeições para semanas em marmitas
+                Week-long meals in lunch boxes
               </figcaption>
             </figure>
             <figure className="position-relative d-flex justify-content-center">
@@ -55,7 +55,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Feijoada de feijão vermelho com couve Kale
+                Red Bean Feijoada with Kale
               </figcaption>
             </figure>
           </div>
@@ -68,7 +68,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Cure de grão de bico com arroz branco e espinafre refogado
+                Chickpea curry with white rice and sautéed spinach
               </figcaption>
             </figure>
           </div>
@@ -81,7 +81,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Lasanha de berinjela com molho de castanha
+                Eggplant lasagna with cashew sauce
               </figcaption>
             </figure>
             <figure className="position-relative d-flex justify-content-center">
@@ -92,17 +92,21 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Moqueca de banana da terra
+                Plantain Moqueca
               </figcaption>
             </figure>
           </div>
         </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         {/** line two  */}
 =======
         {/** line two  */} lineAnime
 >>>>>>> 7e3547a (delete animeLine)
+=======
+        {/** line two  */}
+>>>>>>> ecebbe0 (commit 20 april 2025)
         <div className="row g-0">
           <div className="col-md-6 col-lg-4  ">
             <figure className="position-relative d-flex justify-content-center">
@@ -113,7 +117,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Tofú mexido, toast com queijo cremoso e salada
+                Scrambled tofu, cream cheese toast and salad
               </figcaption>
             </figure>
           </div>
@@ -127,7 +131,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Pudding chia com frutas da estação e melado
+                Chia pudding with seasonal fruits and sugar cane molasses
               </figcaption>
             </figure>
 
@@ -139,7 +143,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Tempeh marinado
+                Marinated Tempeh
               </figcaption>
             </figure>
           </div>
@@ -152,7 +156,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Foccaccia de vegetais
+                Vegetable Focaccia
               </figcaption>
             </figure>
           </div>
@@ -168,7 +172,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Hamburger vegetal
+                Vegetal Burger
               </figcaption>
             </figure>
           </div>
@@ -181,7 +185,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Bolinho de feijoada
+                Feijoada Balls
               </figcaption>
             </figure>
             <figure className="position-relative d-flex justify-content-center">
@@ -192,7 +196,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Homus de grão de bico
+                Chickpea hummus
               </figcaption>
             </figure>
           </div>
@@ -205,7 +209,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Espetinhos de legumes grelhado
+                Grilled vegetable skewers
               </figcaption>
             </figure>
 
@@ -217,7 +221,7 @@ const Gallery = () => {
                 className="d-block w-100 rounded-4 p-2"
               />
               <figcaption className="position-absolute bottom-0 mb-3 z-3 w-75 text-center fw-bolder rounded-1">
-                Toast com requeijão vegano e cogumelos
+                Toast with vegan cream cheese and mushrooms
               </figcaption>
             </figure>
           </div>

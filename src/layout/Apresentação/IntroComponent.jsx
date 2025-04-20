@@ -1,7 +1,6 @@
 import './IntroComponent.css'
 import { Link } from 'react-scroll'
-import Rosy from '../../images/icon/rosy.png'
-import Klamt from '../../images/icon/klamt.png'
+import rosyLogo from '../../images/icon/logo.png'
 import { RiArrowDownDoubleLine } from 'react-icons/ri'
 import { useState } from 'react'
 
@@ -22,9 +21,8 @@ const IntroComponent = ({showBtn, hideBtn}) => {
       onLoad={popUpArrowButton}            
     >
       <div className="pelicula">
-        <img src={Rosy} alt="rosy logo" className="d-block rosy" />
-        <img src={Klamt} alt="klamt" className="d-block klamt" />
-        <p>Sua chef à Domicílio</p>
+        <img src={rosyLogo} alt="rosy logo" className="d-block rosy" />        
+        
 
         {arrowButton ? (
           <Link

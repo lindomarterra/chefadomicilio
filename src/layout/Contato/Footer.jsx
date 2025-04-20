@@ -5,7 +5,6 @@ import SoulRebelRioLogo from '../../images/icon/soulRebelRioLogo.png'
 import { CiInstagram, CiLinkedin } from 'react-icons/ci'
 import CopyRight from './CopyRight'
 
-import ImgLogo from '../../images/icon/newLogo.png'
 
 const Footer = () => {
   const myStyle = {
@@ -26,15 +25,11 @@ const Footer = () => {
                   }}
                   className="fs-1"
                 >
-                  Contatos
+                  Contacts
                 </h5>
                 <p className="lh-lg">
-                  Solicite orçamentos pelo contatos abaixo:
+                  Request quotes using the contacts below:
                 </p>
-
-                
-                  <img src={ImgLogo} alt="imgLogo" className="w-25 mb-3" />
-                
 
                 <p>
                   Email:
@@ -81,7 +76,7 @@ const Footer = () => {
                   }}
                   className="fs-1"
                 >
-                  Parcerias
+                  Partnerships
                 </h5>
 
                 <Link to="https://soulrebelrio.com/catering/" target="_blank">
