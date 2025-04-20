@@ -64,7 +64,7 @@ const NossosServicos = () => {
           </p>
         </div>
 
-        <h4 className="py-2 px-1 mt-5 ">Others Services</h4>
+        <h4 className="py-2 px-1 mt-5 ">Others Services...  </h4>
         <p>
           We also offer strict vegetarian food services for events such as
           catering, coffee breaks and general gatherings. We prepare and deliver
