@@ -88,19 +88,12 @@ const Form = () => {
         </label>
       </div>
 
-<<<<<<< HEAD
-      <button        
-        type="submit"
-        className="btn btn-outline-light btnEnviar w-100"
-      >
-=======
+
+     
       <button type="submit" className="btn btn-outline-light btnEnviar w-100">
-<<<<<<< HEAD
->>>>>>> 2345f9e (editado novo)
-        <span className="fw-bold">Enviar</span>
-=======
+         
         <span className="fw-bold">Submit</span>
->>>>>>> ecebbe0 (commit 20 april 2025)
+
       </button>
     </form>
   )

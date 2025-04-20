@@ -97,16 +97,7 @@ const Gallery = () => {
             </figure>
           </div>
         </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
         {/** line two  */}
-=======
-        {/** line two  */} lineAnime
->>>>>>> 7e3547a (delete animeLine)
-=======
-        {/** line two  */}
->>>>>>> ecebbe0 (commit 20 april 2025)
         <div className="row g-0">
           <div className="col-md-6 col-lg-4  ">
             <figure className="position-relative d-flex justify-content-center">
