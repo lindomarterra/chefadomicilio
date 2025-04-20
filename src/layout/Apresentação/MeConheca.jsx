@@ -8,7 +8,7 @@ const MeConheca = () => {
         <div className="row">
           <div className="col-md-6">
             <h4 className="py-3 titleMeConheca"> Get to Know Me:</h4>
-            <p> Hello! I'm Rosy! </p>
+            <p> Hello! I`m Rosy! </p>
             <p>
               I love cooking, and I believe that cooking is a form of love (and
               all the other cliches), I have been working with food for over 9
