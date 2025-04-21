@@ -6,10 +6,10 @@ const WhatsappButton = () => {
   return (
     <Link
       className="btn_whats"
-      to="https://wa.me//555196944233?text=Olá! Tudo bem? Obrigada por entrar em contato."
+      to="https://wa.me//555196944233?text=Olá! Hello Rosy! How are you? I´m interested in you job."
       alt='Entrar em contato pelo whatsapp'
       target="_blank"
-      title="Falar com Rose Klamt"
+      title="Speak with Rosy Klamt"
     >
       <FaWhatsapp />
     </Link>
