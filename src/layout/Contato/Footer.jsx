@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import './Footer.css'
-import Form from './Form'
 import SoulRebelRioLogo from '../../images/icon/soulRebelRioLogo.png'
 import { CiInstagram, CiLinkedin } from 'react-icons/ci'
 import CopyRight from './CopyRight'
@@ -16,7 +15,7 @@ const Footer = () => {
       <section>
         <div className="container py-5 ">
           <div className="row">
-            <div className="col-md-6 col-lg-4">
+            <div className="col-md-6">
               <div className="text-center py-5">
                 <h5
                   style={{
@@ -63,11 +62,8 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <Form />
-            </div>
-            <div className="col-md-6 col-lg-4">
+            </div>            
+            <div className="col-md-6">
               <div className="text-center pt-5">
                 <h5
                   style={{
