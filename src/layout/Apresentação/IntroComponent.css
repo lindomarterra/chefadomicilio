@@ -1,8 +1,18 @@
-.introComponent {
-  background-image: url(../../images/refeicao/veganMeal.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.introComponent{
+  background-image: url(../../images/rose/personalChef-RosyKlamt-capa.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .introComponent {
+    background-image: url(../../images/refeicao/veganMeal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .pelicula {
@@ -12,12 +22,12 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  background-color: #22222263;  
+  background-color: #22222263;
 }
 .rosy {
   width: 330px;
   position: absolute;
-  top: 10%;
+  top: 25%;
   animation: rosy 1s;
 }
 
@@ -36,24 +46,24 @@
   border: none;
   text-decoration: none;
   cursor: pointer;
-  background-color: rgb(100, 182, 100) ;
+  background-color: rgb(100, 182, 100);
   color: #fff;
   font-family: var(--font-3);
-  padding: 10px 20px ;
+  padding: 10px 20px;
   border-radius: 8px;
-  text-shadow: 2px 2px 4px #222;  
-  animation: pulse 3s infinite;  
+  text-shadow: 2px 2px 4px #222;
+  animation: pulse 3s infinite;
 }
 
 @keyframes pulse {
-    0%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(1.2);
-    }
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
 
-.pelicula .arrow-down svg{
+.pelicula .arrow-down svg {
   font-size: 2.5em;
 }
